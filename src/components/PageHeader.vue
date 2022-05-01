@@ -1,6 +1,8 @@
 <template>
   <ul class="headerContainer">
-    <img class="logo" src="../assets/Triplogo.png" />
+    <router-link to="/"
+      ><img class="logo" src="../assets/Triplogo.png"
+    /></router-link>
     <li class="headerItem"><a href="https://www.google.com"> Ayuda </a></li>
     <li class="headerItem"><a href="https://www.google.com"> Idioma </a></li>
     <li class="headerItem">
