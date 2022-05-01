@@ -1,11 +1,11 @@
 <template>
   <ul class="headerContainer">
-    <router-link to="/"
-      ><img class="logo" src="../assets/Triplogo.png"
+    <router-link class="logo" to="/">
+      <img class="logo" src="../assets/Triplogo.png"
     /></router-link>
     <router-link to="/about"
-      ><li class="headerItem"><a> Ayuda </a></li></router-link
-    >
+      ><li class="headerItem"><a> Ayuda </a></li>
+    </router-link>
     <li class="headerItem"><a href="https://www.google.com"> Idioma </a></li>
     <li class="headerItem">
       <a href="https://www.google.com"> Iniciar Sesion </a>
@@ -25,7 +25,6 @@ export default {};
 <style>
 .logo {
   margin-right: auto;
-  padding-left: 0px;
 }
 .headerContainer {
   list-style: none;
