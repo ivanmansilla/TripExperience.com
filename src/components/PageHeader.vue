@@ -6,10 +6,16 @@
     <router-link to="/about"
       ><li class="headerItem"><a> Ayuda </a></li>
     </router-link>
-    <li class="headerItem"><a href="https://www.google.com"> Idioma </a></li>
+    <select id="LanguageSelection" class="form-select">
+      <option selected>🇪🇸Español</option>
+      <option>🇬🇧English</option>
+    </select>
     <li class="headerItem">
-      <a href="https://www.google.com"> Iniciar Sesion </a>
+      <a> Iniciar Sesión </a>
     </li>
+    <button id="SignInButton" type="submit" class="btn btn-primary">
+      Registrarse
+    </button>
   </ul>
   <nav>
     <router-link to="/">Home</router-link> |
@@ -32,12 +38,27 @@ export default {};
 }
 .headerItem {
   padding-right: 10px;
-  padding-top: 20px;
+  padding-left: 10px;
 }
 .headerItem a {
   color: orange;
 }
 .headerItem a:hover {
   color: orangered;
+}
+#LanguageSelection {
+  height: 25px;
+  color: orange;
+  border-color: orange;
+}
+
+#LanguageSelection:hover {
+  color: orangered;
+}
+
+#SignInButton {
+  background-color: orange;
+  color: white;
+  height: 25px;
 }
 </style>
