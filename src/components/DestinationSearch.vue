@@ -6,7 +6,6 @@
         <body>
           selecciona tu destino en el mapa
         </body>
-        <br />
         <body>
           o escribe aqui:
         </body>
@@ -34,7 +33,6 @@
         <body>
           no sabes a donde ir?
         </body>
-        <br />
         <br />
         <router-link to="/desti">
           <button
