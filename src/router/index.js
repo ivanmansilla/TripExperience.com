@@ -44,7 +44,8 @@ const routes = [
     path: "/user_blogs",
     name: "user_blogs",
     component: AboutView,
-   {
+  },
+  {
     path: "/desti",
     name: "desti",
     component: destinationPage,

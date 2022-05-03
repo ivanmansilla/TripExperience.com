@@ -157,7 +157,7 @@ export default {
   name: "destinationPage",
 };
 </script>
-<style>
+<style scoped>
 .container-card {
   height: auto;
   border: 1px solid lightgray;
