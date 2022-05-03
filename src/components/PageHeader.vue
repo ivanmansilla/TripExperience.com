@@ -55,6 +55,7 @@ export default {};
 #SignInButton {
   background-color: orange;
   color: white;
+  border-color: white;
   height: 25px;
 }
 </style>

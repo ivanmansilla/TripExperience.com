@@ -45,7 +45,7 @@ export default {
   name: "destinationPage",
 };
 </script>
-<style>
+<style scoped>
 .container-card {
   height: auto;
   justify-content: first baseline;
@@ -53,9 +53,9 @@ export default {
   border: 1px solid lightgray;
   box-shadow: 2px 2px 8px 4px #d3d3d3d1;
   border-radius: 15px;
-  width: auto;
-  margin-left: 20px;
-  margin-right: 20px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
   background-color: #fffcb7;
 }
 .text-column {
@@ -70,11 +70,12 @@ export default {
 .world-Map {
   padding-top: 10px;
   border-radius: 15px;
-  padding-left: 300px;
-  width: 1000px;
+  padding-left: 270px;
+  width: 800px;
+  height: 550px;
 }
 #inputDestination {
-  width: 220px;
+  width: 300px;
   height: 30px;
 }
 
