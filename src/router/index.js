@@ -2,6 +2,7 @@ import { createRouter, createWebHashHistory } from "vue-router";
 import HomeView from "../views/HomeView.vue";
 import AboutView from "../views/AboutView.vue";
 import LandingView from "../views/LandingView";
+import destinationPage from "../views/destinationPage.vue";
 
 const routes = [
   {
@@ -43,6 +44,10 @@ const routes = [
     path: "/user_blogs",
     name: "user_blogs",
     component: AboutView,
+   {
+    path: "/desti",
+    name: "desti",
+    component: destinationPage,
   },
   {
     path: "/about",
