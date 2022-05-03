@@ -3,8 +3,6 @@
 </template>
 <script>
 import PageHeader from "@/components/PageHeader.vue";
-import "bootstrap/dist/css/bootstrap.min.css";
-import "bootstrap-icons/font/bootstrap-icons.css";
 export default {
   name: "MainApp",
   components: {

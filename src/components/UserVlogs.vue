@@ -4,7 +4,7 @@
       <div class="col-3" style="text-align: left; margin-left: 15px">
         <b>BLOG DE USUARIOS</b>
         <p>
-          Aqui enontraras las mejores experiencias narradas por los propios
+          Aqui encontraras las mejores experiencias narradas por los propios
           usuarios. Puedes usarlos como guia de viaje a tu destino.
         </p>
         <p>
