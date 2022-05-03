@@ -155,6 +155,14 @@ export default {};
   min-width: 180px;
   margin-bottom: 1%;
 }
+#destinationSearchBtn {
+  height: 36px;
+  background-color: orange;
+  color: white;
+  font-weight: bold;
+  border-color: white;
+  border-width: 3px;
+}
 img {
   width: 100%;
   height: 200px;

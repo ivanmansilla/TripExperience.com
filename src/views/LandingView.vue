@@ -2,7 +2,6 @@
   <DestinationSearch />
   <br />
   <CategorySearch />
-  <br />
   <UserBlogs />
 </template>
 
