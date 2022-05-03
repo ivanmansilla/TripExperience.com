@@ -6,7 +6,6 @@
         <body>
           selecciona tu destino en el mapa
         </body>
-        <br />
         <body>
           o escribe aqui:
         </body>
@@ -20,19 +19,30 @@
         />
         <br />
         <br />
-        <button id="destinationSearchBtn" type="submit" class="btn btn-primary">
-          Buscar
-        </button>
+        <router-link to="/desti">
+          <button
+            id="destinationSearchBtn"
+            type="submit"
+            class="btn btn-primary"
+          >
+            Buscar
+          </button>
+        </router-link>
         <br />
         <br />
         <body>
           no sabes a donde ir?
         </body>
         <br />
-        <br />
-        <button id="destinationSearchBtn" type="submit" class="btn btn-primary">
-          Recomiéndame
-        </button>
+        <router-link to="/desti">
+          <button
+            id="destinationSearchBtn"
+            type="submit"
+            class="btn btn-primary"
+          >
+            Recomiéndame
+          </button>
+        </router-link>
       </div>
       <div class="column">
         <img class="world-Map" src="../assets/world_map.jpeg" />

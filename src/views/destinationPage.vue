@@ -30,7 +30,6 @@
       </div>
     </div>
   </div>
-  <hr size="8" width="80%" style="margin-right: auto; margin-left: auto" />
   <div class="container-card" style="margin-top: 60px; margin-bottom: 60px">
     <div style="width: 100%; text-align: left; margin-left: 2%">
       <b style="position: relative">ACTIVIDADES MAS POPULARES</b>
@@ -86,7 +85,6 @@
       </div>
     </div>
   </div>
-  <hr size="8" width="80%" style="margin-right: auto; margin-left: auto" />
   <div class="container-card" style="display: inline-block; margin-top: 60px">
     <div class="row">
       <div class="col-3" style="text-align: left; margin-left: 15px">
