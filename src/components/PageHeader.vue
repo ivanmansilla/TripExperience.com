@@ -17,10 +17,6 @@
       Registrarse
     </button>
   </ul>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
   <router-view />
 </template>
 
@@ -59,6 +55,7 @@ export default {};
 #SignInButton {
   background-color: orange;
   color: white;
+  border-color: white;
   height: 25px;
 }
 </style>
