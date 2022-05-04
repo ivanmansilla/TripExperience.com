@@ -1,4 +1,6 @@
 <template>
+  <NavBar />
+  <br />
   <div class="container-card" style="margin-bottom: 60px">
     <div style="width: 100%; text-align: left; margin-left: 2%">
       <b style="position: relative">Naturaleza y gastronomia</b>
@@ -151,8 +153,12 @@
   </div>
 </template>
 <script>
+import NavBar from "@/components/NavBar.vue";
 export default {
   name: "destinationPage",
+  components: {
+    NavBar,
+  },
 };
 </script>
 <style scoped>
