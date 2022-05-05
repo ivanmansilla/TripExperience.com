@@ -1,8 +1,9 @@
 import { createRouter, createWebHashHistory } from "vue-router";
-import HomeView from "../views/HomeView.vue";
+//import HomeView from "../views/HomeView.vue";
 import AboutView from "../views/AboutView.vue";
 import LandingView from "../views/LandingView";
 import destinationPage from "../views/destinationPage.vue";
+import ActivityList from "../views/ActivityList.vue";
 import BlogView from "../views/BlogView.vue";
 import BlogView2 from "../views/BlogView2.vue";
 import BlogView3 from "../views/BlogView3.vue";
@@ -16,32 +17,32 @@ const routes = [
   {
     path: "/arquitectura",
     name: "arquitectura",
-    component: HomeView,
+    component: ActivityList,
   },
   {
     path: "/naturaleza",
     name: "naturaleza",
-    component: AboutView,
+    component: ActivityList,
   },
   {
     path: "/arte_cultura",
     name: "arte_cultura",
-    component: AboutView,
+    component: ActivityList,
   },
   {
     path: "/gastronomia",
     name: "gastronomia",
-    component: AboutView,
+    component: ActivityList,
   },
   {
     path: "/ocio_nocturno",
     name: "ocio_nocturno",
-    component: AboutView,
+    component: ActivityList,
   },
   {
     path: "/familia",
     name: "familia",
-    component: AboutView,
+    component: ActivityList,
   },
   {
     path: "/user_blogs",
@@ -67,6 +68,11 @@ const routes = [
     path: "/desti",
     name: "desti",
     component: destinationPage,
+  },
+  {
+    path: "/activitat",
+    name: "activitat",
+    component: ActivityList,
   },
   {
     path: "/about",
