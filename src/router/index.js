@@ -4,6 +4,9 @@ import AboutView from "../views/AboutView.vue";
 import LandingView from "../views/LandingView";
 import destinationPage from "../views/destinationPage.vue";
 import ActivityList from "../views/ActivityList.vue";
+import BlogView from "../views/BlogView.vue";
+import BlogView2 from "../views/BlogView2.vue";
+import BlogView3 from "../views/BlogView3.vue";
 
 const routes = [
   {
@@ -45,6 +48,21 @@ const routes = [
     path: "/user_blogs",
     name: "user_blogs",
     component: AboutView,
+  },
+  {
+    path: "/blog",
+    name: "blog",
+    component: BlogView,
+  },
+  {
+    path: "/blog2",
+    name: "blog2",
+    component: BlogView2,
+  },
+  {
+    path: "/blog3",
+    name: "blog3",
+    component: BlogView3,
   },
   {
     path: "/desti",

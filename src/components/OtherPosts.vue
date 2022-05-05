@@ -21,14 +21,17 @@
                   <img
                     class="imgCard2 rounded"
                     id="imagen11"
-                    src="../assets/para3.jpg"
+                    src="../assets/arte_icon.jpg"
                   />
-                  <h3 class="activityB">
-                    PARACAIDAS, UNA EXPERIENCIA INOLVIDABLE
-                  </h3>
+                  <h3 class="activityB">UN DIA HACIENDO SUBMARINISMO</h3>
                   <p>Escrito por Ferran Ferrero</p>
                 </div>
               </router-link>
+              <br />
+            </div>
+            <div>
+              <b>133</b>
+              <i class="bi bi-heart-fill"></i>
             </div>
           </div>
           <div class="col-3 card3" style="text-align: left">
@@ -37,12 +40,16 @@
                 <img
                   class="imgCard2 rounded"
                   id="imagen11"
-                  src="../assets/trek2.jpg"
+                  src="../assets/arte_icon.jpg"
                 />
                 <h3 class="activityB">MI PRIMER TREKKING "EL MORADO"</h3>
                 <p>Escrito por Alexia Putellas</p>
               </div>
             </router-link>
+            <div>
+              <b>133</b>
+              <i class="bi bi-heart-fill"></i>
+            </div>
           </div>
           <div class="col-3 card3" style="text-align: left">
             <router-link to="/blog3">
@@ -50,12 +57,16 @@
                 <img
                   class="imgCard2 rounded"
                   id="imagen11"
-                  src="../assets/subm3.jpg"
+                  src="../assets/arte_icon.jpg"
                 />
                 <h3 class="activityB">UN DIA HACIENDO SUBMARINISMO</h3>
                 <p>Escrito por Juan Carlos</p>
               </div>
             </router-link>
+            <div>
+              <b>133</b>
+              <i class="bi bi-heart-fill"></i>
+            </div>
           </div>
         </div>
       </div>
