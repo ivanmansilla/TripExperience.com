@@ -4,37 +4,28 @@
       <img class="activitypicture" src="../assets/excursiones.jpg" />
     </div>
     <div class="text-column">
-      <h3 class="title">Excursión por el Amazonas</h3>
+      <h2 class="title">Excursión por el Amazonas</h2>
       <body>
         <p>
-          Esto es un texto de ejemplo.<br />
-          Falta pasarlo por parámetro para que <br />cambie con cada actividad.
-          Por ahora diremos que el amazonas es un sitio <br />del cual te
-          encantará conocer su flora <br />
-          y fauna
+          Conozca de cerca y en persona la exuberante jungla y la <br />
+          increíble vida silvestre del Amazonas durante esta aventura <br />
+          de 3 días y 2 noches en Refugio Amazonas Lodge.
         </p>
       </body>
-      <br />
     </div>
     <div class="rightcolumn">
       <body>
         <p>
-          desde <br /><span class="price">140€</span> <br />
+          Desde <br /><span class="price"> 618,39 €</span> <br />
           por persona
         </p>
       </body>
-      <br />
-      <router-link to="/book_activity">
-        <button id="destinationSearchBtn" type="submit" class="btn btn-primary">
-          Información y reserva
-        </button>
-      </router-link>
     </div>
   </div>
 </template>
 <script>
 export default {
-  name: "ActivityOverview",
+  name: "BookActivityCard",
 };
 </script>
 <style scoped>
