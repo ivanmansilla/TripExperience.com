@@ -1,5 +1,14 @@
 <template>
   <div class="slidecontainer">
+    <body>
+      <p>General</p>
+    </body>
+    <input
+      type="text"
+      class="form-control"
+      id="inputDestination"
+      placeholder="Búsqueda"
+    />
     <div class="price-row">
       <body>
         <p>Precio(€)</p>
@@ -30,6 +39,9 @@ export default {
 };
 </script>
 <style>
+#inputDestination {
+  margin: 5%;
+}
 .slidecontainer {
   height: 300px;
   display: flex;

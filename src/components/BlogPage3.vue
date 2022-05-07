@@ -158,7 +158,6 @@ export default {
 .text-blog {
   width: 50%;
   margin: 20px auto;
-  color: #fff;
   padding: 15px;
 }
 .column {
