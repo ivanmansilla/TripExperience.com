@@ -11,6 +11,24 @@
           Si has viajado recientemente y tu destino te gusto tanto que lo
           compartir puedes contarnos por aqui tu experiencia
         </p>
+        <br />
+        <p>Busca los posts del pais que te interesa:</p>
+        <input
+          type="text"
+          class="form-control"
+          id="inputDestination"
+          placeholder="Destino"
+        />
+        <router-link to="/destiBlogs">
+          <button
+            id="destPostBtn"
+            type="submit"
+            class="btn btn-primary"
+            color="black"
+          >
+            Buscar
+          </button>
+        </router-link>
       </div>
       <div class="col-8">
         <div class="container-card2">
@@ -109,5 +127,13 @@ export default {};
 .imgCard2 {
   width: 100%;
   height: 250px;
+}
+#destPostBtn {
+  height: 36px;
+  background-color: orange;
+  color: black;
+  font-weight: bold;
+  border-color: white;
+  border-width: 3px;
 }
 </style>
