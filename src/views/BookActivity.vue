@@ -45,12 +45,4 @@ export default {
   color: rgb(255, 89, 0);
   font-size: 12px;
 }
-.BookAactivityCard {
-  padding-top: 1rem;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: stretch;
-  align-content: stretch;
-}
 </style>
