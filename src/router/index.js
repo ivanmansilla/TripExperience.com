@@ -8,6 +8,7 @@ import BlogView from "../views/BlogView.vue";
 import BlogView2 from "../views/BlogView2.vue";
 import BlogView3 from "../views/BlogView3.vue";
 import destinationBlogs from "../views/destinationBlogs.vue";
+import destinationBlogs2 from "../views/destinationBlogs2.vue";
 
 const routes = [
   {
@@ -74,6 +75,11 @@ const routes = [
     path: "/destiBlogs",
     name: "destiBlogs",
     component: destinationBlogs,
+  },
+  {
+    path: "/destiBlogs2",
+    name: "destiBlogs2",
+    component: destinationBlogs2,
   },
   {
     path: "/activitat",

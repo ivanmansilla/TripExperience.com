@@ -29,6 +29,28 @@
             Buscar
           </button>
         </router-link>
+        <p>Blogs de lugares recomendados:</p>
+        <router-link to="/destiBlogs">
+          <button
+            id="destPostBtn"
+            type="submit"
+            class="btn btn-primary"
+            color="black"
+          >
+            MADAGASCAR
+          </button>
+        </router-link>
+        &nbsp;&nbsp;
+        <router-link to="/destiBlogs2">
+          <button
+            id="destPostBtn"
+            type="submit"
+            class="btn btn-primary"
+            color="black"
+          >
+            COSTA RICA
+          </button>
+        </router-link>
       </div>
       <div class="col-8">
         <div class="container-card2">
