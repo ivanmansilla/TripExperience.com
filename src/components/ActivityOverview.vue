@@ -18,7 +18,7 @@
         </p>
       </body>
       <br />
-      <router-link to="/activitat">
+      <router-link to="/book_activity">
         <button id="destinationSearchBtn" type="submit" class="btn btn-primary">
           Información y reserva
         </button>

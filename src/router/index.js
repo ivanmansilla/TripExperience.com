@@ -9,6 +9,7 @@ import BlogView2 from "../views/BlogView2.vue";
 import BlogView3 from "../views/BlogView3.vue";
 import destinationBlogs from "../views/destinationBlogs.vue";
 import destinationBlogs2 from "../views/destinationBlogs2.vue";
+import BookActivity from "../views/BookActivity.vue";
 
 const routes = [
   {
@@ -85,6 +86,11 @@ const routes = [
     path: "/activitat",
     name: "activitat",
     component: ActivityList,
+  },
+  {
+    path: "/book_activity",
+    name: "book_activity",
+    component: BookActivity,
   },
   {
     path: "/about",
