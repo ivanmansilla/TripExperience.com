@@ -2,14 +2,10 @@
   <div class="container-card" style="display: inline-block; margin-top: 60px">
     <div class="row">
       <div class="col-3" style="text-align: left; margin-left: 15px">
-        <b>BLOG DE USUARIOS</b>
+        <b>OTROS POSTS</b>
         <p>
-          Aqui encontraras las mejores experiencias narradas por los propios
-          usuarios. Puedes usarlos como guia de viaje a tu destino.
-        </p>
-        <p>
-          Si has viajado recientemente y tu destino te gusto tanto que lo
-          compartir puedes contarnos por aqui tu experiencia
+          Otros posts que te pueden interesar sobre diferentes experiencias de
+          usuarios!.
         </p>
       </div>
       <div class="col-8">
@@ -21,17 +17,14 @@
                   <img
                     class="imgCard2 rounded"
                     id="imagen11"
-                    src="../assets/arte_icon.jpg"
+                    src="../assets/para3.jpg"
                   />
-                  <h3 class="activityB">UN DIA HACIENDO SUBMARINISMO</h3>
+                  <h3 class="activityB">
+                    PARACAIDAS, UNA EXPERIENCIA INOLVIDABLE
+                  </h3>
                   <p>Escrito por Ferran Ferrero</p>
                 </div>
               </router-link>
-              <br />
-            </div>
-            <div>
-              <b>133</b>
-              <i class="bi bi-heart-fill"></i>
             </div>
           </div>
           <div class="col-3 card3" style="text-align: left">
@@ -40,16 +33,12 @@
                 <img
                   class="imgCard2 rounded"
                   id="imagen11"
-                  src="../assets/arte_icon.jpg"
+                  src="../assets/trek2.jpg"
                 />
                 <h3 class="activityB">MI PRIMER TREKKING "EL MORADO"</h3>
                 <p>Escrito por Alexia Putellas</p>
               </div>
             </router-link>
-            <div>
-              <b>133</b>
-              <i class="bi bi-heart-fill"></i>
-            </div>
           </div>
           <div class="col-3 card3" style="text-align: left">
             <router-link to="/blog3">
@@ -57,16 +46,12 @@
                 <img
                   class="imgCard2 rounded"
                   id="imagen11"
-                  src="../assets/arte_icon.jpg"
+                  src="../assets/subm3.jpg"
                 />
                 <h3 class="activityB">UN DIA HACIENDO SUBMARINISMO</h3>
                 <p>Escrito por Juan Carlos</p>
               </div>
             </router-link>
-            <div>
-              <b>133</b>
-              <i class="bi bi-heart-fill"></i>
-            </div>
           </div>
         </div>
       </div>

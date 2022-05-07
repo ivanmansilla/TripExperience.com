@@ -7,6 +7,9 @@ import ActivityList from "../views/ActivityList.vue";
 import BlogView from "../views/BlogView.vue";
 import BlogView2 from "../views/BlogView2.vue";
 import BlogView3 from "../views/BlogView3.vue";
+import destinationBlogs from "../views/destinationBlogs.vue";
+import destinationBlogs2 from "../views/destinationBlogs2.vue";
+import BookActivity from "../views/BookActivity.vue";
 
 const routes = [
   {
@@ -70,9 +73,24 @@ const routes = [
     component: destinationPage,
   },
   {
+    path: "/destiBlogs",
+    name: "destiBlogs",
+    component: destinationBlogs,
+  },
+  {
+    path: "/destiBlogs2",
+    name: "destiBlogs2",
+    component: destinationBlogs2,
+  },
+  {
     path: "/activitat",
     name: "activitat",
     component: ActivityList,
+  },
+  {
+    path: "/book_activity",
+    name: "book_activity",
+    component: BookActivity,
   },
   {
     path: "/about",

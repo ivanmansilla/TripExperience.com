@@ -4,27 +4,21 @@
       <img class="activitypicture" src="../assets/excursiones.jpg" />
     </div>
     <div class="text-column">
-      <h3 class="title">Excursión por el Amazonas</h3>
+      <h3 class="title">{{ titl }}</h3>
       <body>
-        <p>
-          Esto es un texto de ejemplo.<br />
-          Falta pasarlo por parámetro para que <br />cambie con cada actividad.
-          Por ahora diremos que el amazonas es un sitio <br />del cual te
-          encantará conocer su flora <br />
-          y fauna
-        </p>
+        <p class="paragraph">{{ parrafo }}</p>
       </body>
       <br />
     </div>
     <div class="rightcolumn">
       <body>
         <p>
-          desde <br /><span class="price">140€</span> <br />
+          desde <br /><span class="price">{{ precio }}</span> <br />
           por persona
         </p>
       </body>
       <br />
-      <router-link to="/activitat">
+      <router-link to="/book_activity">
         <button id="destinationSearchBtn" type="submit" class="btn btn-primary">
           Información y reserva
         </button>
@@ -35,6 +29,11 @@
 <script>
 export default {
   name: "ActivityOverview",
+  props: {
+    titl: String,
+    parrafo: String,
+    precio: String,
+  },
 };
 </script>
 <style scoped>
@@ -42,9 +41,8 @@ export default {
   height: 150px;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: stretch;
-  align-content: stretch;
   border: 1px solid lightgray;
   box-shadow: 2px 2px 8px 4px #d3d3d3d1;
   border-radius: 15px;
@@ -56,10 +54,14 @@ export default {
 .columnpicture {
   order: 1;
 }
+#paragraph {
+}
 .text-column {
   order: 2;
   text-align: left;
   font-size: 10px;
+  width: 500px;
+  padding-left: 20px;
 }
 .activitypicture {
   float: left;
