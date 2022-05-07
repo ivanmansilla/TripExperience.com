@@ -6,7 +6,7 @@
 
 <script>
 import BlogPage2 from "@/components/BlogPage2.vue";
-import UserBlogs from "@/components/UserVlogs.vue";
+import UserBlogs from "@/components/OtherPosts.vue";
 
 export default {
   name: "BlogView2",
