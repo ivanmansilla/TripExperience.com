@@ -1,5 +1,6 @@
 <template>
   <div class="title1">
+    <NavBar />
     <h1>Actividades de arquitectura</h1>
   </div>
   <label
@@ -28,12 +29,14 @@
 <script>
 import ActivityOverview from "@/components/ActivityOverview.vue";
 import ActivityFilter from "@/components/ActivityFilter.vue";
+import NavBar from "@/components/NavBar.vue";
 
 export default {
   name: "ActivityList",
   components: {
     ActivityOverview,
     ActivityFilter,
+    NavBar,
   },
 };
 </script>

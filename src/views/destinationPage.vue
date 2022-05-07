@@ -1,37 +1,6 @@
 <template>
   <NavBar />
   <br />
-  <div class="container-card" style="margin-bottom: 60px">
-    <div style="width: 100%; text-align: left; margin-left: 2%">
-      <b style="position: relative">Naturaleza y gastronomia</b>
-    </div>
-    <div class="container-card2">
-      <div class="col card">
-        <img class="rounded" id="imagen1" src="../assets/actividadPlaya.jpg" />
-        <b class="activityB">ACTIVITATS AQUATIQUES</b>
-      </div>
-      <div class="col card">
-        <img class="rounded" id="imagen0" src="../assets/actividadPlaya.jpg" />
-        <b class="activityB">ACTIVITATS AQUATIQUES</b>
-      </div>
-      <div class="col card">
-        <img class="rounded" id="imagen2" src="../assets/actividadPlaya.jpg" />
-        <b class="activityB">ACTIVITATS AQUATIQUES</b>
-      </div>
-      <div class="col card">
-        <img class="rounded" id="imagen5" src="../assets/actividadPlaya.jpg" />
-        <b class="activityB">ACTIVITATS AQUATIQUES</b>
-      </div>
-      <div class="col card">
-        <img id="imagen3" src="../assets/excursiones.jpg" />
-        <b class="activityB">EXCURSIONES DESTINO</b>
-      </div>
-      <div class="col card">
-        <img class="rounded" id="imagen4" src="../assets/actividadPlaya.jpg" />
-        <b class="activityB">ACTIVITATS AQUATIQUES</b>
-      </div>
-    </div>
-  </div>
   <div class="container-card" style="margin-top: 60px; margin-bottom: 60px">
     <div style="width: 100%; text-align: left; margin-left: 2%">
       <b style="position: relative">ACTIVIDADES MAS POPULARES</b>
@@ -84,6 +53,37 @@
           <b>133</b>
           <i class="bi bi-heart-fill"></i>
         </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-card" style="margin-bottom: 60px">
+    <div style="width: 100%; text-align: left; margin-left: 2%">
+      <b style="position: relative">Naturaleza y gastronomia</b>
+    </div>
+    <div class="container-card2">
+      <div class="col card">
+        <img class="rounded" id="imagen1" src="../assets/actividadPlaya.jpg" />
+        <b class="activityB">ACTIVITATS AQUATIQUES</b>
+      </div>
+      <div class="col card">
+        <img class="rounded" id="imagen0" src="../assets/actividadPlaya.jpg" />
+        <b class="activityB">ACTIVITATS AQUATIQUES</b>
+      </div>
+      <div class="col card">
+        <img class="rounded" id="imagen2" src="../assets/actividadPlaya.jpg" />
+        <b class="activityB">ACTIVITATS AQUATIQUES</b>
+      </div>
+      <div class="col card">
+        <img class="rounded" id="imagen5" src="../assets/actividadPlaya.jpg" />
+        <b class="activityB">ACTIVITATS AQUATIQUES</b>
+      </div>
+      <div class="col card">
+        <img id="imagen3" src="../assets/excursiones.jpg" />
+        <b class="activityB">EXCURSIONES DESTINO</b>
+      </div>
+      <div class="col card">
+        <img class="rounded" id="imagen4" src="../assets/actividadPlaya.jpg" />
+        <b class="activityB">ACTIVITATS AQUATIQUES</b>
       </div>
     </div>
   </div>
