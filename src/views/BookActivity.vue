@@ -6,13 +6,21 @@
         <BookActivityCard />
       </div>
     </div>
-    <br />
     <div class="components">
       <div class="BookAactivityCard">
         <BookActivityCard />
       </div>
     </div>
-    <br />
+    <div class="components">
+      <div class="BookAactivityCard">
+        <BookActivityCard />
+      </div>
+    </div>
+    <div class="components">
+      <div class="BookAactivityCard">
+        <BookActivityCard />
+      </div>
+    </div>
     <div class="components">
       <div class="BookAactivityCard">
         <BookActivityCard />
@@ -35,25 +43,14 @@ export default {
 <style>
 .title1 {
   color: rgb(255, 89, 0);
-  font-size: 9px;
+  font-size: 12px;
 }
-.components {
+.BookAactivityCard {
+  padding-top: 1rem;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: stretch;
   align-content: stretch;
-}
-.list {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: stretch;
-  align-content: stretch;
-  float: right;
-}
-.filter {
-  float: left;
-  padding-right: 50px;
 }
 </style>
