@@ -72,12 +72,12 @@ const routes = [
   {
     path: "/destiBlogs",
     name: "destiBlogs",
-    component: destinationBlogs,
+    component: DestinationBlogs,
   },
   {
     path: "/destiBlogs2",
     name: "destiBlogs2",
-    component: destinationBlogs2,
+    component: DestinationBlogs2,
   },
   {
     path: "/activitat",
