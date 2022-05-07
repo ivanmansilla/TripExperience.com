@@ -7,13 +7,7 @@ import ActivityList from "../views/ActivityList.vue";
 import BlogView from "../views/BlogView.vue";
 import BlogView2 from "../views/BlogView2.vue";
 import BlogView3 from "../views/BlogView3.vue";
-<<<<<<< HEAD
 import BookActivity from "../views/BookActivity";
-=======
-import destinationBlogs from "../views/destinationBlogs.vue";
-import destinationBlogs2 from "../views/destinationBlogs2.vue";
->>>>>>> origin/master
-
 const routes = [
   {
     path: "/",
