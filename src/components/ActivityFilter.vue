@@ -83,7 +83,7 @@ export default {
   width: 25px;
   height: 25px;
   border-radius: 50%;
-  background: rgb(255, 89, 0);
+  background: orange;
   cursor: pointer;
 }
 .checkboxes label {

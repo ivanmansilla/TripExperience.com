@@ -290,12 +290,12 @@ export default {
   font-weight: bold;
 }
 .price {
-  color: rgb(255, 89, 0);
+  color: orange;
 }
 
 #destiBlogBtn {
   height: 36px;
-  background-color: rgb(255, 89, 0);
+  background-color: orange;
   color: white;
   font-weight: bold;
   border-color: white;
