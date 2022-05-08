@@ -56,108 +56,69 @@
       </div>
     </div>
   </div>
-  <div class="container-card" style="margin-bottom: 60px">
-    <div style="width: 100%; text-align: left; margin-left: 2%">
-      <b style="position: relative">Naturaleza y gastronomia</b>
-    </div>
-    <div class="container-card2">
-      <div class="col card">
-        <img class="rounded" id="imagen1" src="../assets/actividadPlaya.jpg" />
-        <b class="activityB">ACTIVITATS AQUATIQUES</b>
+  <router-link to="/naturaleza">
+    <div class="container-card">
+      <div style="width: 100%; text-align: left; margin-left: 2%">
+        <b style="position: relative, color: black">Naturaleza y gastronomia</b>
       </div>
-      <div class="col card">
-        <img class="rounded" id="imagen0" src="../assets/actividadPlaya.jpg" />
-        <b class="activityB">ACTIVITATS AQUATIQUES</b>
-      </div>
-      <div class="col card">
-        <img class="rounded" id="imagen2" src="../assets/actividadPlaya.jpg" />
-        <b class="activityB">ACTIVITATS AQUATIQUES</b>
-      </div>
-      <div class="col card">
-        <img class="rounded" id="imagen5" src="../assets/actividadPlaya.jpg" />
-        <b class="activityB">ACTIVITATS AQUATIQUES</b>
-      </div>
-      <div class="col card">
-        <img id="imagen3" src="../assets/excursiones.jpg" />
-        <b class="activityB">EXCURSIONES DESTINO</b>
-      </div>
-      <div class="col card">
-        <img class="rounded" id="imagen4" src="../assets/actividadPlaya.jpg" />
-        <b class="activityB">ACTIVITATS AQUATIQUES</b>
-      </div>
-    </div>
-  </div>
-  <div class="container-card" style="display: inline-block; margin-top: 60px">
-    <div class="row">
-      <div class="col-3" style="text-align: left; margin-left: 15px">
-        <b>BLOG DE USUARIOS</b>
-        <p>
-          Aqui enontraras las mejores experiencias narradas por los propios
-          usuarios. Puedes usarlos como guia de viaje a tu destino.
-        </p>
-        <p>
-          Si has viajado recientemente y tu destino te gusto tanto que lo
-          compartir puedes contarnos por aqui tu experiencia
-        </p>
-      </div>
-      <div class="col-8">
-        <div class="container-card2">
-          <div class="col-3 card3" style="text-align: left">
-            <img
-              class="imgCard2 rounded"
-              id="imagen11"
-              src="../assets/actividadPlaya.jpg"
-            />
-            <b class="activityB">ACTIVITATS AQUATIQUES</b>
-            <div>
-              <b>ESCRITO POR JOSE MANUEL</b>
-            </div>
-            <div>
-              <b>133</b>
-              <i class="bi bi-heart-fill"></i>
-            </div>
-          </div>
-          <div class="col-3 card3" style="text-align: left">
-            <img
-              class="imgCard2 rounded"
-              id="imagen12"
-              src="../assets/actividadPlaya.jpg"
-            />
-            <b class="activityB">ACTIVITATS AQUATIQUES</b>
-            <div>
-              <b>ESCRITO POR JOSE MANUEL</b>
-            </div>
-            <div>
-              <b>133</b>
-              <i class="bi bi-heart-fill"></i>
-            </div>
-          </div>
-          <div class="col-3 card3" style="text-align: left">
-            <img
-              class="imgCard2 rounded"
-              id="imagen13"
-              src="../assets/actividadPlaya.jpg"
-            />
-            <b class="activityB">ACTIVITATS AQUATIQUES</b>
-            <div>
-              <b>ESCRITO POR JOSE MANUEL</b>
-            </div>
-            <div>
-              <b>133</b>
-              <i class="bi bi-heart-fill"></i>
-            </div>
-          </div>
+      <div class="container-card2">
+        <div class="col card">
+          <img
+            class="rounded"
+            id="imagen1"
+            src="../assets/actividadPlaya.jpg"
+          />
+          <b class="activityB">ACTIVITATS AQUATIQUES</b>
+        </div>
+        <div class="col card">
+          <img
+            class="rounded"
+            id="imagen0"
+            src="../assets/actividadPlaya.jpg"
+          />
+          <b class="activityB">ACTIVITATS AQUATIQUES</b>
+        </div>
+        <div class="col card">
+          <img
+            class="rounded"
+            id="imagen2"
+            src="../assets/actividadPlaya.jpg"
+          />
+          <b class="activityB">ACTIVITATS AQUATIQUES</b>
+        </div>
+        <div class="col card">
+          <img
+            class="rounded"
+            id="imagen5"
+            src="../assets/actividadPlaya.jpg"
+          />
+          <b class="activityB">ACTIVITATS AQUATIQUES</b>
+        </div>
+        <div class="col card">
+          <img id="imagen3" src="../assets/excursiones.jpg" />
+          <b class="activityB">EXCURSIONES DESTINO</b>
+        </div>
+        <div class="col card">
+          <img
+            class="rounded"
+            id="imagen4"
+            src="../assets/actividadPlaya.jpg"
+          />
+          <b class="activityB">ACTIVITATS AQUATIQUES</b>
         </div>
       </div>
     </div>
-  </div>
+  </router-link>
+  <UserBlogs />
 </template>
 <script>
 import NavBar from "@/components/NavBar.vue";
+import UserBlogs from "@/components/UserVlogs.vue";
 export default {
   name: "destinationPage",
   components: {
     NavBar,
+    UserBlogs,
   },
 };
 </script>
