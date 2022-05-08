@@ -90,6 +90,7 @@ export default {
   margin-left: auto;
   margin-right: auto;
   background-color: #fffcb7;
+  padding-bottom: 15px;
 }
 .contenedor {
   width: 100%;
