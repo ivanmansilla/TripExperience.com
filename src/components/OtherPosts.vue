@@ -22,7 +22,7 @@
                   <h3 class="activityB">
                     PARACAIDAS, UNA EXPERIENCIA INOLVIDABLE
                   </h3>
-                  <p>Escrito por Ferran Ferrero</p>
+                  <p id="TitleText">Escrito por Ferran Ferrero</p>
                 </div>
               </router-link>
             </div>
@@ -36,7 +36,7 @@
                   src="../assets/trek2.jpg"
                 />
                 <h3 class="activityB">MI PRIMER TREKKING "EL MORADO"</h3>
-                <p>Escrito por Alexia Putellas</p>
+                <p id="TitleText">Escrito por Alexia Putellas</p>
               </div>
             </router-link>
           </div>
@@ -49,7 +49,7 @@
                   src="../assets/subm3.jpg"
                 />
                 <h3 class="activityB">UN DIA HACIENDO SUBMARINISMO</h3>
-                <p>Escrito por Juan Carlos</p>
+                <p id="TitleText">Escrito por Juan Carlos</p>
               </div>
             </router-link>
           </div>
@@ -74,6 +74,9 @@ export default {};
   margin-left: auto;
   margin-right: auto;
   background-color: #fffcb7;
+}
+#TitleText {
+  color: orange;
 }
 .container-card2 {
   height: auto;
@@ -100,7 +103,7 @@ export default {};
   margin-bottom: 1%;
 }
 .activityB {
-  color: #ef6e32;
+  color: orange;
 }
 .imgCard2 {
   width: 100%;

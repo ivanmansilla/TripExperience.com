@@ -130,12 +130,12 @@ export default {
   margin-right: 5px;
 }
 .price {
-  color: rgb(255, 89, 0);
+  color: orange;
 }
 
 #destinationSearchBtn {
   height: 36px;
-  background-color: rgb(255, 89, 0);
+  background-color: orange;
   color: white;
   font-weight: bold;
   border-color: white;

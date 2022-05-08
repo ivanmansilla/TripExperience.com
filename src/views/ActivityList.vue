@@ -73,7 +73,7 @@ export default {
 
 <style>
 .title1 {
-  color: rgb(255, 89, 0);
+  color: orange;
   font-size: 9px;
 }
 .components {

@@ -1,12 +1,15 @@
 <template>
   <PageHeader />
+  <Footer />
 </template>
 <script>
 import PageHeader from "@/components/PageHeader.vue";
+import Footer from "@/components/Footer.vue";
 export default {
   name: "MainApp",
   components: {
     PageHeader,
+    Footer,
   },
 };
 </script>

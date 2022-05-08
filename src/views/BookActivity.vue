@@ -1,6 +1,6 @@
 <template>
   <div class="title1">
-    <h1>Reserva la actividad que buscas!</h1>
+    <h1 id="Title">Reserva la actividad que buscas!</h1>
     <div class="components">
       <div class="BookAactivityCard">
         <BookActivityCard />
@@ -41,8 +41,11 @@ export default {
 </script>
 
 <style>
+#Title {
+  color: orange;
+}
 .title1 {
-  color: rgb(255, 89, 0);
+  color: black;
   font-size: 12px;
 }
 </style>
