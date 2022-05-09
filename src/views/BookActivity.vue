@@ -6,26 +6,6 @@
         <BookActivityCard />
       </div>
     </div>
-    <div class="components">
-      <div class="BookAactivityCard">
-        <BookActivityCard />
-      </div>
-    </div>
-    <div class="components">
-      <div class="BookAactivityCard">
-        <BookActivityCard />
-      </div>
-    </div>
-    <div class="components">
-      <div class="BookAactivityCard">
-        <BookActivityCard />
-      </div>
-    </div>
-    <div class="components">
-      <div class="BookAactivityCard">
-        <BookActivityCard />
-      </div>
-    </div>
   </div>
 </template>
 
@@ -43,6 +23,6 @@ export default {
 <style>
 .title1 {
   color: rgb(255, 89, 0);
-  font-size: 12px;
+  font-size: 15px;
 }
 </style>
