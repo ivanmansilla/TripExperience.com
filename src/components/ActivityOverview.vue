@@ -54,8 +54,6 @@ export default {
 .columnpicture {
   order: 1;
 }
-#paragraph {
-}
 .text-column {
   order: 2;
   text-align: left;
@@ -77,12 +75,12 @@ export default {
   font-weight: bold;
 }
 .price {
-  color: rgb(255, 89, 0);
+  color: orange;
 }
 
 #destinationSearchBtn {
   height: 36px;
-  background-color: rgb(255, 89, 0);
+  background-color: orange;
   color: white;
   font-weight: bold;
   border-color: white;

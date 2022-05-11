@@ -3,9 +3,7 @@
     <router-link class="logo" to="/">
       <img class="logo" src="../assets/Triplogo.png"
     /></router-link>
-    <router-link to="/about"
-      ><li class="headerItem"><a> Ayuda </a></li>
-    </router-link>
+    <li class="headerItem"><a> Ayuda </a></li>
     <select id="LanguageSelection" class="form-select">
       <option selected>🇪🇸Español</option>
       <option>🇬🇧English</option>

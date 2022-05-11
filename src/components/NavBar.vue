@@ -1,14 +1,12 @@
 <template>
   <nav id="NavBar">
+    <router-link id="NavBarItem" to="/desti">Recomendaciones</router-link>
     <router-link id="NavBarItem" to="/arquitectura">Arquitectura</router-link>
     <router-link id="NavBarItem" to="/naturaleza">Naturaleza</router-link>
     <router-link id="NavBarItem" to="/arte_cultura">Arte y Cultura</router-link>
     <router-link id="NavBarItem" to="/gastronomia">Gastronomía</router-link>
     <router-link id="NavBarItem" to="/ocio_nocturno">Ocio Nocturno</router-link>
     <router-link id="NavBarItem" to="/familia">En familia</router-link>
-    <router-link id="NavBarItem" to="/user_blogs"
-      >Blogs de Usuarios</router-link
-    >
   </nav>
 </template>
 

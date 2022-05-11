@@ -90,6 +90,7 @@ export default {
   margin-left: auto;
   margin-right: auto;
   background-color: #fffcb7;
+  padding-bottom: 15px;
 }
 .contenedor {
   width: 100%;
@@ -290,12 +291,12 @@ export default {
   font-weight: bold;
 }
 .price {
-  color: rgb(255, 89, 0);
+  color: orange;
 }
 
 #destiBlogBtn {
   height: 36px;
-  background-color: rgb(255, 89, 0);
+  background-color: orange;
   color: white;
   font-weight: bold;
   border-color: white;

@@ -21,8 +21,11 @@ export default {
 </script>
 
 <style>
+#Title {
+  color: orange;
+}
 .title1 {
-  color: rgb(255, 89, 0);
-  font-size: 15px;
+  color: black;
+  font-size: 12px;
 }
 </style>
