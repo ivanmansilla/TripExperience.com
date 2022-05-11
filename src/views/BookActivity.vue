@@ -1,6 +1,6 @@
 <template>
   <div class="title1">
-    <h1>Reserva la actividad que buscas!</h1>
+    <h1>Reserva tu actividad!</h1>
     <div class="components">
       <div class="BookAactivityCard">
         <BookActivityCard />
