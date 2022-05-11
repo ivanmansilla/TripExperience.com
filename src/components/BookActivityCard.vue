@@ -22,23 +22,31 @@
           </p>
           <hr />
           <p>Seleccionar fecha y viajeros</p>
-          <input
-            type="text"
-            style="height: 25px"
-            class="form-control"
-            id="inputDestination"
-            placeholder="Lunes 9 de mayo de 2022"
-          />
+          <form action="https://example.com">
+            <label>
+              Introduce la fecha:<input
+                class="fecha"
+                type="date"
+                name="fecha"
+                style="height: 18px"
+              />
+            </label>
+          </form>
           <br />
-          <input
-            type="text"
-            style="height: 25px"
-            class="form-control2"
-            id="inputDestination"
-            placeholder="2 adultos"
-          />
+          <label for="Número de viajeros">Número de viajeros:</label>
+          <select name="viajeros" class="viajerosc">
+            <option value="1 persona">1 persona</option>
+            <option value="2 personas">2 personas</option>
+            <option value="3 personas">3 personas</option>
+            <option value="4 personas">4 personas</option>
+            <option value="5 personas">5 personas</option>
+            <option value="6 personas">6 personas</option>
+            <option value="7 personas">7 personas</option>
+            <option value="8 personas">8 personas</option>
+          </select>
+          <br />
           <button
-            id="destinationSearchBtn"
+            id="check_dispobility_button"
             type="submit"
             class="btn btn-primary"
           >
@@ -79,7 +87,8 @@ export default {
   display: flex;
 }
 .btn-primary {
-  margin-top: 5px;
+  margin-top: 13px;
+  margin-bottom: 8px;
   width: 200px;
 }
 .container-card {
@@ -90,7 +99,7 @@ export default {
   border: 1px solid lightgray;
   box-shadow: 2px 2px 8px 4px #d3d3d3d1;
   border-radius: 15px;
-  width: 1000px;
+  width: 1050px;
   margin-top: 10px;
   margin-left: auto;
   margin-right: auto;
@@ -102,7 +111,6 @@ export default {
   float: left;
   padding-top: 2.5px;
 }
-
 .img_emote {
   width: 22px;
   height: 22px;
@@ -111,8 +119,13 @@ export default {
 .details {
   padding-top: 5px;
 }
-.form-control2 {
-  margin-top: 10px;
+
+.fecha {
+  margin-left: 10px;
+  width: 110px;
+}
+.viajerosc {
+  margin-left: 12px;
 }
 .title {
   padding-left: 30px;
@@ -158,10 +171,10 @@ export default {
   margin-right: 5px;
 }
 .price {
-  color: orange;
+  color: orangered;
 }
 
-#destinationSearchBtn {
+#check_dispobility_button {
   height: 36px;
   background-color: orange;
   color: white;
