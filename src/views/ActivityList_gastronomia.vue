@@ -1,7 +1,7 @@
 <template>
   <div class="title1">
     <NavBar />
-    <h1>Actividades de arquitectura</h1>
+    <h1>Restaurantes y gastronomia</h1>
   </div>
   <label
     ><select id="Order" class="form-order">
@@ -73,7 +73,7 @@ export default {
 
 <style>
 .title1 {
-  color: orange;
+  color: rgb(255, 110, 0);
   font-size: 9px;
 }
 .components {

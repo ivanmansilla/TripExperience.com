@@ -62,7 +62,7 @@ export default {
 
 <style>
 .title1 {
-  color: rgb(255, 89, 0);
+  color: rgb(255, 110, 0);
   font-size: 9px;
 }
 .components {

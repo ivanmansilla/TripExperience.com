@@ -18,21 +18,27 @@ export default {};
 #NavBar {
   display: flex;
   justify-content: space-evenly;
-  border-radius: 5px;
+  border-radius: 10px;
+  height: 50px;
   list-style-type: none;
-  margin: 0;
+  margin-left: 5%;
+  margin-right: 5%;
   padding: 0;
-  background-color: orange;
+  background-color: #fffcb7;
 }
 #NavBar a.router-link-exact-active {
-  color: orangered;
+  background-color: rgb(255, 110, 0);
+  color: white;
+  border-radius: 10px;
 }
+
 #NavBarItem {
   display: flex;
   justify-content: space-between;
-  padding-top: 2px;
+  padding-top: 10px;
   float: left;
   font-size: 20px;
   padding-left: 10px;
+  padding-right: 10px;
 }
 </style>

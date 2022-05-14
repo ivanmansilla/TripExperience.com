@@ -4,12 +4,8 @@
       <div class="text-column">
         <h3 class="title">¿Adónde vas?</h3>
         <body>
-          selecciona tu destino en el mapa
+          Escribe aqui:
         </body>
-        <body>
-          o escribe aqui:
-        </body>
-        <br />
         <br />
         <input
           type="text"
@@ -45,7 +41,7 @@
         </router-link>
       </div>
       <div class="column">
-        <img class="world-Map" src="../assets/world_map.jpeg" />
+        <img class="sunset" src="../assets/sunset.jpg" />
       </div>
     </div>
   </div>
@@ -60,8 +56,6 @@ export default {
   height: auto;
   justify-content: first baseline;
   display: flex;
-  border: 1px solid lightgray;
-  box-shadow: 2px 2px 8px 4px #d3d3d3d1;
   border-radius: 15px;
   width: 90%;
   margin-left: auto;
@@ -72,29 +66,40 @@ export default {
   padding-left: 30px;
   float: left;
   text-align: left;
+  padding-top: 50px;
 }
 .column {
-  float: left;
+  float: right;
   padding-left: 20px;
 }
-.world-Map {
-  padding-top: 10px;
-  border-radius: 15px;
+.sunset {
+  padding-top: 30px;
+  padding-bottom: 30px;
   padding-left: 270px;
-  width: 800px;
-  height: 550px;
-}
-#inputDestination {
-  width: 300px;
-  height: 30px;
+  width: 700px;
+  height: 450px;
 }
 
+#inputDestination {
+  width: 200px;
+  height: 30px;
+  border-width: 0px;
+}
+
+.form-control {
+  border-radius: 10px;
+}
 #destinationSearchBtn {
   height: 36px;
-  background-color: orange;
+  background-color: rgb(255, 110, 0);
   color: white;
   font-weight: bold;
-  border-color: white;
-  border-width: 3px;
+  border-width: 0px;
+  outline: 0;
+  border-radius: 12px;
+}
+
+#destinationSearchBtn:hover {
+  background-color: rgb(255, 50, 0);
 }
 </style>

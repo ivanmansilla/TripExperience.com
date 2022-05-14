@@ -66,8 +66,6 @@ export default {};
 <style scoped>
 .container-card {
   height: auto;
-  border: 1px solid lightgray;
-  box-shadow: 2px 2px 8px 4px #d3d3d3d1;
   border-radius: 15px;
   padding-top: 15px;
   width: 90%;
@@ -76,12 +74,10 @@ export default {};
   background-color: #fffcb7;
 }
 #TitleText {
-  color: orange;
+  color: rgb(255, 110, 0);
 }
 .container-card2 {
   height: auto;
-  border: 1px solid lightgray;
-  box-shadow: 2px 2px 8px 4px #d3d3d3d1;
   border-radius: 15px;
   padding-top: 15px;
   width: auto;
@@ -93,8 +89,6 @@ export default {};
   margin-left: 15px;
   margin-right: 15px;
   padding-bottom: 2%;
-  border: 1px solid lightgray;
-  box-shadow: 2px 2px 8px 4px #d3d3d3d1;
   border-radius: 15px;
   margin-top: 1%;
   height: 13%;
@@ -103,7 +97,14 @@ export default {};
   margin-bottom: 1%;
 }
 .activityB {
-  color: orange;
+  color: rgb(255, 110, 0);
+  border-width: 0px;
+  outline: 0;
+  border-radius: 12px;
+}
+
+#activityB:hover {
+  background-color: rgb(255, 50, 0);
 }
 .imgCard2 {
   width: 100%;

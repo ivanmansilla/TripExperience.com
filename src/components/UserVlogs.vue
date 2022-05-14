@@ -54,10 +54,10 @@
       </div>
       <div class="col-8">
         <div class="container-card2">
-          <div class="col-3 card3" style="text-align: left">
+          <div class="card3" style="text-align: left">
             <div>
               <router-link to="/blog">
-                <div class="col card">
+                <div class="col_card">
                   <img
                     class="imgCard2 rounded"
                     id="imagen11"
@@ -71,9 +71,9 @@
               </router-link>
             </div>
           </div>
-          <div class="col-3 card3" style="text-align: left">
+          <div class="card3" style="text-align: left">
             <router-link to="/blog2">
-              <div class="col card">
+              <div class="col_card">
                 <img
                   class="imgCard2 rounded"
                   id="imagen11"
@@ -84,9 +84,9 @@
               </div>
             </router-link>
           </div>
-          <div class="col-3 card3" style="text-align: left">
+          <div class="card3" style="text-align: left">
             <router-link to="/blog3">
-              <div class="col card">
+              <div class="col_card">
                 <img
                   class="imgCard2 rounded"
                   id="imagen11"
@@ -110,8 +110,6 @@ export default {};
 <style scoped>
 .container-card {
   height: auto;
-  border: 1px solid lightgray;
-  box-shadow: 2px 2px 8px 4px #d3d3d3d1;
   border-radius: 15px;
   padding-top: 15px;
   width: 90%;
@@ -119,23 +117,23 @@ export default {};
   margin-right: auto;
   background-color: #fffcb7;
 }
+.col-3 {
+  padding-left: 30px;
+  padding-top: 20px;
+}
 .container-card2 {
+  display: flex;
   height: auto;
-  border: 1px solid lightgray;
-  box-shadow: 2px 2px 8px 4px #d3d3d3d1;
   border-radius: 15px;
-  padding-top: 15px;
   width: auto;
-  margin: 2%;
-  background-color: #ffff;
+  margin: 3%;
+  background-color: white;
 }
 .card3 {
-  display: inline-block;
-  margin-left: 15px;
-  margin-right: 15px;
-  padding-bottom: 2%;
-  border: 1px solid lightgray;
-  box-shadow: 2px 2px 8px 4px #d3d3d3d1;
+  margin-left: 23px;
+  margin-right: 23px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   border-radius: 15px;
   margin-top: 1%;
   height: 13%;
@@ -143,22 +141,36 @@ export default {};
   min-width: 180px;
   margin-bottom: 1%;
 }
+
 .activityB {
-  color: orange;
-}
-.imgCard2 {
-  width: 100%;
-  height: 250px;
+  color: rgb(255, 110, 0);
 }
 #authorText {
-  color: orange;
+  color: rgb(255, 110, 0);
 }
 #destPostBtn {
   height: 36px;
-  background-color: orange;
+  background-color: rgb(255, 110, 0);
   color: white;
   font-weight: bold;
-  border-color: white;
-  border-width: 3px;
+  border-width: 0px;
+  outline: 0;
+  border-radius: 12px;
+}
+
+#destPostBtn:hover {
+  background-color: rgb(255, 50, 0);
+}
+img {
+  width: 100%;
+  height: 250px;
+  border-radius: 10px;
+  border: 1px solid lightgray;
+  box-shadow: 2px 2px 8px 4px #d3d3d3d1;
+}
+img:hover {
+  box-shadow: 2px 2px 8px 8px rgb(255, 50, 0);
+  color: rgb(255, 50, 0);
+  border-width: 0px;
 }
 </style>

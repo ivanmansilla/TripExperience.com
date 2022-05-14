@@ -96,14 +96,13 @@ export default {
   justify-content: space-evenly;
   align-items: stretch;
   align-content: stretch;
-  border: 1px solid lightgray;
-  box-shadow: 2px 2px 8px 4px #d3d3d3d1;
   border-radius: 15px;
   width: 1050px;
   margin-top: 10px;
   margin-left: auto;
   margin-right: auto;
   background-color: #fffcb7;
+  padding-top: 20px;
 }
 .img_emote1 {
   width: 22px;
@@ -176,10 +175,15 @@ export default {
 
 #check_dispobility_button {
   height: 36px;
-  background-color: orange;
+  background-color: rgb(255, 110, 0);
   color: white;
   font-weight: bold;
-  border-color: #fffcb7;
-  border-width: 3px;
+  border-width: 0px;
+  outline: 0;
+  border-radius: 12px;
+}
+
+#check_disponibility_button:hover {
+  background-color: rgb(255, 50, 0);
 }
 </style>
