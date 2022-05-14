@@ -22,7 +22,7 @@ export default {
 
 <style>
 .title1 {
-  color: orangered;
+  color: rgb(255, 110, 0);
   font-size: 12px;
 }
 </style>

@@ -42,8 +42,6 @@ export default {
   height: auto;
   justify-content: space-evenly;
   display: flex;
-  border: 1px solid lightgray;
-  box-shadow: 2px 2px 8px 4px #d3d3d3d1;
   border-radius: 15px;
   width: 90%;
   margin-left: auto;
@@ -51,7 +49,7 @@ export default {
   background-color: rgba(148, 148, 148, 0.461);
 }
 p:hover {
-  color: orangered;
+  color: rgb(255, 110, 0);
 }
 .text-column {
   padding-left: 30px;

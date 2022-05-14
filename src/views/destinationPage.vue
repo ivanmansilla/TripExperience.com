@@ -189,7 +189,7 @@ export default {
   margin-bottom: 1%;
 }
 .activityB {
-  color: orange;
+  color: orangered;
 }
 img {
   width: 100%;

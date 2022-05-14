@@ -137,8 +137,6 @@ export default {
   height: auto;
   justify-content: first baseline;
   display: flex;
-  border: 1px solid lightgray;
-  box-shadow: 2px 2px 8px 4px #d3d3d3d1;
   border-radius: 15px;
   width: 90%;
   margin-left: auto;
@@ -185,10 +183,15 @@ export default {
 
 #destinationSearchBtn {
   height: 36px;
-  background-color: orange;
+  background-color: rgb(255, 110, 0);
   color: white;
   font-weight: bold;
-  border-color: white;
-  border-width: 3px;
+  border-width: 0px;
+  outline: 0;
+  border-radius: 12px;
+}
+
+#destinationSearchBtn:hover {
+  background-color: rgb(255, 50, 0);
 }
 </style>

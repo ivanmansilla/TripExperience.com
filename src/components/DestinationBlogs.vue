@@ -83,14 +83,13 @@ export default {
   justify-content: space-evenly;
   align-items: stretch;
   align-content: stretch;
-  border: 1px solid lightgray;
-  box-shadow: 2px 2px 8px 4px #d3d3d3d1;
   border-radius: 15px;
   width: 800px;
   margin-left: auto;
   margin-right: auto;
   background-color: #fffcb7;
   padding-bottom: 15px;
+  padding-left: 10px;
 }
 .contenedor {
   width: 100%;
@@ -217,23 +216,23 @@ export default {
   transform: translateY(0);
 }
 .btn_reaccion .reaccion:nth-child(1):hover {
-  background-color: #4e88ff;
+  background-color: orangered;
   color: black;
 }
 .btn_reaccion .reaccion:nth-child(2):hover {
-  background-color: #ff3d3d;
+  background-color: orangered;
   color: black;
 }
 .btn_reaccion .reaccion:nth-child(3):hover {
-  background-color: #ff7d3d;
+  background-color: orangered;
   color: black;
 }
 .btn_reaccion .reaccion:nth-child(4):hover {
-  background-color: #a63dff;
+  background-color: orangered;
   color: black;
 }
 .btn_reaccion .reaccion:nth-child(5):hover {
-  background-color: #ff3d3d;
+  background-color: orangered;
   color: black;
 }
 
@@ -291,15 +290,20 @@ export default {
   font-weight: bold;
 }
 .price {
-  color: orange;
+  color: orangered;
 }
 
 #destiBlogBtn {
   height: 36px;
-  background-color: orange;
+  background-color: rgb(255, 110, 0);
   color: white;
   font-weight: bold;
-  border-color: white;
-  border-width: 3px;
+  border-width: 0px;
+  outline: 0;
+  border-radius: 12px;
+}
+
+#destiBlogBtn:hover {
+  background-color: rgb(255, 50, 0);
 }
 </style>
