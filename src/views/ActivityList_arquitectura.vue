@@ -28,35 +28,39 @@
         filename="../assets/teatroCR.jpg"
       /><br />
       <ActivityOverview
-        titl="Buceo en el arrecife"
-        parrafo="  Te encantara bucear por el mar caribeño.
-          Un espectáculo de colores bajo el mar donde podrás ver tiburones,
-          peces de todo tipo, coral colorido, tortugas y mucho mas"
-        precio="150€"
+        titl="Arenal Hanging Bridges Park"
+        parrafo="Una de las experiencias más increíbles que podrás
+         disfrutar. El recorrido por los puentes colgantes en medio de una 
+         flora y fauna increíbles es para recomendar a todos los amantes del 
+         medio ambiente y de la naturaleza "
+        precio="60€"
         filename="../assets/trek1.jpg"
       /><br />
       <ActivityOverview
-        titl="Rafting en el río"
-        parrafo="Si te gusta la adrenalina ven a hacer ráfting.
-        Probaras el descenso por el rio tucaton y no te arrepentiras.
-        Algo tan fascinante que se tiene que hacer una vez en la vida"
-        precio="80€"
+        titl="El Miro"
+        parrafo="Fue difícil encontrarlo, ya que no existe señalización ni ruta en el mapa, sin embargo,
+         le preguntamos a un lugareño y nos dio las pistas para encontrarlo. Hay que dejar el carro abajo y subir
+          por otro medio. La cuesta es muy pronunciada, se puede entrar en bicicleta o caminando Llegamos al primer
+           mirador y nos gustó mucho, la infraestructura es sorprendente."
+        precio="0€"
         filename="trek1.jpg"
       /><br />
       <ActivityOverview
-        titl="Tour de flora y fauna"
-        parrafo="Descubre las flores y los animales del país,
-        acpmàñado de un guía experto en Biología, el doctor Miguelito
-        Florecito"
-        precio="300€"
+        titl="Marina Pez Vela"
+        parrafo="Lugar hermoso para visitar en familia. Restaurantes 
+        variados, tiendas y la belleza del mar y los yates.
+        Imperdible si visita Quépos o Manuel Antonio"
+        precio="30€"
         filename="trek1.jpg"
       /><br />
       <ActivityOverview
-        titl="Acampada en la playa"
-        parrafo="Disfruta de la noche bajo las estrellas y al sonido
-        de las olas del mar por este módico precio. Podrás disfrutar de 
-        una cena caribeña y de una noche inolvidable"
-        precio="120€"
+        titl="Basilisca Nuestra Sra. de los Ángeles"
+        parrafo="La Basílica es un lugar de visita obligatoria si se quiere 
+        conocer la cultura e historia de Costa Rica. La iglesia tiene una construcción 
+        muy hermosa. En ella se encuentra la Virgen de Los Àngeles, patrona de Costa Rica. 
+        Habitualmente. hay personas que suben la iglesia de rodillas. En la parte de atrás de la iglesia, 
+        se encuentra el agua bendita y la piedra del hallazgo"
+        precio="20€"
         filename="trek1.jpg"
       /><br />
     </div>
