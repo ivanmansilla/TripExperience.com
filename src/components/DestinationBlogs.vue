@@ -114,7 +114,7 @@ export default {
   position: relative;
   padding: 10px 10px;
   border: none;
-  background: linear-gradient(90deg, orange, orangered);
+  background: rgb(255, 110, 0);
   border-radius: 8px;
   cursor: pointer;
 }
