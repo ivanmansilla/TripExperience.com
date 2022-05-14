@@ -18,39 +18,45 @@
     </div>
     <div class="list">
       <ActivityOverview
-        titl="Excursión por la Selva"
-        parrafo="Disfruta de la selva al puro estilo Amazónico.
-          Un sitio del cual sin duda te enamorarás y te quedaras fascinado con lo que puedes 
-          encontrar. Te encantará conocer la flora y la fauna del lugar"
+        titl="Museo del Oro Precolombino"
+        parrafo="Este museo se encuentra bajo una de las plazas principales 
+        de la ciudad al lado del teatro nacional, en el centro de la ciudad. 
+        Tiene una buena colección de objetos, que permite conocer la historia
+        del país y de la importancia del oro en las culturas de la región. 
+        El montaje del museo es bueno y vale la pena visitarlo, aún cuando la entrada sea algo elevada."
         precio="40€"
       /><br />
       <ActivityOverview
-        titl="Buceo en el arrecife"
-        parrafo="  Te encantara bucear por el mar caribeño.
-          Un espectáculo de colores bajo el mar donde podrás ver tiburones,
-          peces de todo tipo, coral colorido, tortugas y mucho mas"
-        precio="150€"
+        titl="Museo del Jade"
+        parrafo="  El Museo de jade es un extraordinario museo dedicado a dar a conocer la cultura, 
+        costumbres y actividades precolombinas, resaltan las diferentes tribus que poblaban Costa Rica.
+         Muy bien montado, con muchas posibilidades de interactuar y una extraordinaria colección de piezas 
+         de jade y de elaboraciones en barro y piedra. Es una muy recomendable visita en San José."
+        precio="50€"
       /><br />
       <ActivityOverview
-        titl="Rafting en el río"
-        parrafo="Si te gusta la adrenalina ven a hacer ráfting.
-        Probaras el descenso por el rio tucaton y no te arrepentiras.
-        Algo tan fascinante que se tiene que hacer una vez en la vida"
-        precio="80€"
+        titl="Chorotega Arts and Crafts"
+        parrafo="Excelentes piezas las que Marcelo realiza día a día para mantener la tradición. 
+        Se toma su tiempo para explicar el proceso de manera super cálida y con mucha pasión. 
+        Su atención es destacable, como sus piezas de arte! "
+        precio="0€"
       /><br />
       <ActivityOverview
-        titl="Tour de flora y fauna"
-        parrafo="Descubre las flores y los animales del país,
-        acpmàñado de un guía experto en Biología, el doctor Miguelito
-        Florecito"
-        precio="300€"
+        titl="Museo de Arte Costarricense"
+        parrafo="El Museo se encuentra en La Sabana, en el antiguo Aeropuerto
+         La Sabana. Exhibe diferentes exposiciones de arte, donde se muestra la 
+         calidad de artistas que trabajan en el país. El museo tiene un Salón Dorado,
+          antiguo salón diplomático del aeropuerto y ¡ëspectacular! El lugar es pequeño, 
+          pero vale la pena su visita. La entrada es gratuita."
+        precio="0€"
       /><br />
       <ActivityOverview
-        titl="Acampada en la playa"
-        parrafo="Disfruta de la noche bajo las estrellas y al sonido
-        de las olas del mar por este módico precio. Podrás disfrutar de 
-        una cena caribeña y de una noche inolvidable"
-        precio="120€"
+        titl="Galeria Namu"
+        parrafo="Tienda que reúne y muestra una gran cantidad de
+         trabajos provenientes de diferentes culturas de la region, formada por 
+         un par de emprendedores de máscaras de la region Huetar beneficiados 
+         por la tienda y se acerca a un comercio justo con un gran sentido de pertenencia. "
+        precio="10€"
       /><br />
     </div>
   </div>

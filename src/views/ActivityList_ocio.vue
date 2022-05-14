@@ -18,39 +18,41 @@
     </div>
     <div class="list">
       <ActivityOverview
-        titl="Excursión por la Selva"
-        parrafo="Disfruta de la selva al puro estilo Amazónico.
-          Un sitio del cual sin duda te enamorarás y te quedaras fascinado con lo que puedes 
-          encontrar. Te encantará conocer la flora y la fauna del lugar"
-        precio="40€"
+        titl="Carpe Chepe"
+        parrafo="El tour es muy agradable, conocí personas muy especiales, Amaral el guia es un parcero, 
+        las bebidas muy buenas y los lugares excelentes. Definitivamente creo q lo volvería a hacer. 
+        Recomendadas las hamburguesas de A dos manos"
+        precio="30€"
       /><br />
       <ActivityOverview
-        titl="Buceo en el arrecife"
-        parrafo="  Te encantara bucear por el mar caribeño.
-          Un espectáculo de colores bajo el mar donde podrás ver tiburones,
-          peces de todo tipo, coral colorido, tortugas y mucho mas"
-        precio="150€"
+        titl="Beach and Pool Crawl"
+        parrafo="  Los chicos que organizan super buena onda y divertidos,
+         todo el tiempo poniendo atencion a que todo salga bien y cuidando de todos.
+         Muy recomendable, mucho sol, playa, piscinas y alcohol. No se que mas puede pedir uno! Aguante el Sunday Funday carajo!"
+        precio="50€"
       /><br />
       <ActivityOverview
-        titl="Rafting en el río"
-        parrafo="Si te gusta la adrenalina ven a hacer ráfting.
-        Probaras el descenso por el rio tucaton y no te arrepentiras.
-        Algo tan fascinante que se tiene que hacer una vez en la vida"
-        precio="80€"
+        titl="The Crazy Monkey Bar"
+        parrafo="El Crazy Monkey es un bar restaurante con piscina que puede ser utilizada
+         (siempre y cuando se este consumiendo) y es complemento del hotel Best Western. 
+         Se encuentra en una colina por lo que la vista es excelente, ademas, posee parqueo seguro. 
+         La piscina posee buen espacio y es propicia para nadar en la zona honda (3 metros de profundidad) 
+         o para hacer clavados."
+        precio="20€"
       /><br />
       <ActivityOverview
-        titl="Tour de flora y fauna"
-        parrafo="Descubre las flores y los animales del país,
-        acpmàñado de un guía experto en Biología, el doctor Miguelito
-        Florecito"
-        precio="300€"
+        titl="Casino Columbus Platinum"
+        parrafo="Lugar ideal par pasar un rato agradable, 
+        el lugar funciona como tipo sport bar donde puedes ver deportes 
+        y a la vez bailar y disfrutar de bebidas."
+        precio="0€"
       /><br />
       <ActivityOverview
-        titl="Acampada en la playa"
-        parrafo="Disfruta de la noche bajo las estrellas y al sonido
-        de las olas del mar por este módico precio. Podrás disfrutar de 
-        una cena caribeña y de una noche inolvidable"
-        precio="120€"
+        titl="Casino Fiesta"
+        parrafo="Casinos Fiesta están ubicados en diferentes lugares para acercarse cómodamente,
+         buenos y seguros parqueos, un lugar especial para disfrutar del juego con amigos, en pareja...
+         y con un poco de suerte salir más que satisfecho."
+        precio="0€"
       /><br />
     </div>
   </div>

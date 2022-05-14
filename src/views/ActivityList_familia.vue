@@ -18,39 +18,40 @@
     </div>
     <div class="list">
       <ActivityOverview
-        titl="Excursión por la Selva"
-        parrafo="Disfruta de la selva al puro estilo Amazónico.
-          Un sitio del cual sin duda te enamorarás y te quedaras fascinado con lo que puedes 
-          encontrar. Te encantará conocer la flora y la fauna del lugar"
-        precio="40€"
+        titl="Royal Butterflies"
+        parrafo="No se lo pueden perder! Sobre todo si vienen con niños. 
+        Dan es un anfitrión increíble y explica todo con sumo detalle. 
+        Es un apasionado de lo que hace. Súper recomendable!"
+        precio="50€"
       /><br />
       <ActivityOverview
-        titl="Buceo en el arrecife"
-        parrafo="  Te encantara bucear por el mar caribeño.
-          Un espectáculo de colores bajo el mar donde podrás ver tiburones,
-          peces de todo tipo, coral colorido, tortugas y mucho mas"
-        precio="150€"
+        titl="Ponderosa Adventure Park"
+        parrafo="Una experiencia inolvidable, los animales son impresionantes,
+         el poder interactuar con ellos es mágico más sabiendo que son animales 
+         que no son comunes ver en este continente."
+        precio="30€"
       /><br />
       <ActivityOverview
-        titl="Rafting en el río"
-        parrafo="Si te gusta la adrenalina ven a hacer ráfting.
-        Probaras el descenso por el rio tucaton y no te arrepentiras.
-        Algo tan fascinante que se tiene que hacer una vez en la vida"
-        precio="80€"
+        titl="Refugio Animal de Costa Rica"
+        parrafo="El lugar es súper completo. El biólogo, dueño y fundador del Refugio
+         don Rodolfo es un excelente guía, profesor y sobre todo se nota que es una
+          persona honesta y servicial; no solo por su carisma y personalidad, sino que
+           también irradia pasión y amor por los animales y su trabajo. De verdad que hace una muy 
+           buena labor. En este Refugio son muy responsables y los animales que tienen están bien cuidados, es de admirar."
+        precio="0€"
       /><br />
       <ActivityOverview
         titl="Tour de flora y fauna"
         parrafo="Descubre las flores y los animales del país,
         acpmàñado de un guía experto en Biología, el doctor Miguelito
         Florecito"
-        precio="300€"
+        precio="50€"
       /><br />
       <ActivityOverview
-        titl="Acampada en la playa"
-        parrafo="Disfruta de la noche bajo las estrellas y al sonido
-        de las olas del mar por este módico precio. Podrás disfrutar de 
-        una cena caribeña y de una noche inolvidable"
-        precio="120€"
+        titl="The Bat Jungle"
+        parrafo="Es un lugar que te enseña prácticamente todo sobre los murciélagos y tienen muchos tipos de murciélagos. la hospitalidad excelente.
+        También hay un restaurante."
+        precio="20€"
       /><br />
     </div>
   </div>
