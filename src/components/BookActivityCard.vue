@@ -78,7 +78,7 @@
             type="submit"
             class="btn btn-primary"
           >
-            Comprobar disponibilidad
+            Reservar actividad
           </button>
           <hr />
           <img class="img_emote1" src="../assets/medidas_seguridad.png" />
@@ -89,6 +89,25 @@
           <p class="details">Se ofrece recogida</p>
           <img class="img_emote" src="../assets/telefono.png" />
           <p class="details">Entrada para dispositivos móviles</p>
+          <section class="contenedor">
+            <button type="" class="btn_reaccion">
+              <span>Valora la actividad</span>
+              <div class="reacciones">
+                <div class="reaccion">
+                  <i>❤️</i>
+                  <span>Favorito</span>
+                </div>
+                <div class="reaccion">
+                  <i>👍</i>
+                  <span>Me gusta</span>
+                </div>
+                <div class="reaccion">
+                  <i>👎</i>
+                  <span>No me gusta</span>
+                </div>
+              </div>
+            </button>
+          </section>
         </body>
       </div>
     </div>
@@ -141,6 +160,183 @@ export default {
   margin-right: auto;
   background-color: #fffcb7;
   padding-top: 20px;
+}
+.contenedor {
+  width: 100%;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-align-items: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn_reaccion {
+  display: inline-flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  -o-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-align-items: center;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding: 10px 10px;
+  border: none;
+  background: rgb(255, 110, 0);
+  border-radius: 8px;
+  cursor: pointer;
+}
+.btn_reaccion > span {
+  color: #fff;
+}
+
+.btn_reaccion .reacciones {
+  display: flex;
+  position: absolute;
+  bottom: calc(100% + 10px);
+  background-color: #d4e4ff;
+  padding: 5px;
+  border-radius: 5rem;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: all 200ms ease-in;
+  -o-transition: all 200ms ease-in;
+  transition: all 200ms ease-in;
+  -webkit-transform: translateY(15px);
+  -moz-transform: translateY(15px);
+  -ms-transform: translateY(15px);
+  -o-transform: translateY(15px);
+  transform: translateY(15px);
+}
+.btn_reaccion:hover .reacciones {
+  opacity: 1;
+  visibility: visible;
+  -webkit-transform: translateY(0);
+  -moz-transform: translateY(0);
+  -ms-transform: translateY(0);
+  -o-transform: translateY(0);
+  transform: translateY(0);
+}
+.btn_reaccion .reacciones::before {
+  content: "";
+  display: block;
+  border-style: solid;
+  border-color: transparent;
+  border-width: 12px 12px 12px 12px;
+  border-top-color: #d4e4ff;
+  position: absolute;
+  bottom: -24px;
+  left: calc(50% - 12px);
+}
+
+.btn_reaccion .reaccion {
+  display: flex;
+  -ms-align-items: center;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  background-color: #fff;
+  border-radius: 5rem;
+  -webkit-transition: all 200ms ease-in;
+  -o-transition: all 200ms ease-in;
+  transition: all 200ms ease-in;
+}
+.btn_reaccion .reaccion + .reaccion {
+  margin-left: 5px;
+}
+.btn_reaccion .reaccion i {
+  font-size: 1.3rem;
+}
+.btn_reaccion .reaccion > span {
+  display: block;
+  width: auto;
+  font-size: 0.9em;
+  position: absolute;
+  top: -1.5rem;
+  font-weight: bold;
+  -ms-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  opacity: 0;
+  visibility: hidden;
+  color: #333;
+  -webkit-transition: all 200ms ease-in;
+  -o-transition: all 200ms ease-in;
+  transition: all 200ms ease-in;
+  -webkit-transform: translateY(15px);
+  -moz-transform: translateY(15px);
+  -ms-transform: translateY(15px);
+  -o-transform: translateY(15px);
+  transform: translateY(15px);
+}
+.btn_reaccion .reaccion:nth-child(1):hover > span,
+.btn_reaccion .reaccion:nth-child(2):hover > span,
+.btn_reaccion .reaccion:nth-child(3):hover > span,
+.btn_reaccion .reaccion:nth-child(4):hover > span,
+.btn_reaccion .reaccion:nth-child(5):hover > span {
+  opacity: 1;
+  visibility: visible;
+  -webkit-transform: translateY(0);
+  -moz-transform: translateY(0);
+  -ms-transform: translateY(0);
+  -o-transform: translateY(0);
+  transform: translateY(0);
+}
+.btn_reaccion .reaccion:nth-child(1):hover {
+  background-color: orangered;
+  color: black;
+}
+.btn_reaccion .reaccion:nth-child(2):hover {
+  background-color: orangered;
+  color: black;
+}
+.btn_reaccion .reaccion:nth-child(3):hover {
+  background-color: orangered;
+  color: black;
+}
+.btn_reaccion .reaccion:nth-child(4):hover {
+  background-color: orangered;
+  color: black;
+}
+.btn_reaccion .reaccion:nth-child(5):hover {
+  background-color: orangered;
+  color: black;
+}
+
+/* animacion salto */
+.btn_reaccion .reaccion:hover {
+  -webkit-animation-duration: 500ms;
+  -o-animation-duration: 500ms;
+  animation-duration: 500ms;
+  -webkit-animation-timing-function: ease-out;
+  -o-animation-timing-function: ease-out;
+  animation-timing-function: ease-out;
+  -webkit-animation-name: saltar;
+  -o-animation-name: saltar;
+  animation-name: saltar;
+}
+@keyframes saltar {
+  from {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0);
+  }
+  50% {
+    -webkit-transform: translateY(-15px);
+    -ms-transform: translateY(-15px);
+    -o-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+  to {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0);
+  }
 }
 .img_emote1 {
   width: 22px;
