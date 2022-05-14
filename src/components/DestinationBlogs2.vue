@@ -1,14 +1,14 @@
 <template>
   <div class="container-card">
     <div class="columnpicture">
-      <img class="activitypicture" src="../assets/para4.jpg" />
+      <img class="activitypicture" src="../assets/trek1.jpg" />
     </div>
     <div class="text-column">
-      <h3 class="title">{{ tit }}</h3>
+      <h3 class="title">{{ tit2 }}</h3>
       <body>
-        <h3 class="paragraph">{{ parraf }}</h3>
+        <h3 class="paragraph">{{ parraf2 }}</h3>
         <br />
-        <h3 class="paragraph">{{ autor }}</h3>
+        <h3 class="paragraph">{{ autor2 }}</h3>
       </body>
       <br />
     </div>
@@ -16,7 +16,7 @@
       <body>
         <p>Lee aqui el post ⬇</p>
       </body>
-      <router-link to="/blog">
+      <router-link to="/blog2">
         <button id="destiBlogBtn" type="submit" class="btn btn-primary">
           Post
         </button>
@@ -52,7 +52,7 @@
           </button>
         </section>
         <p>
-          93
+          189
           <!-- Add icon library -->
           <link
             rel="stylesheet"
@@ -67,11 +67,11 @@
 </template>
 <script>
 export default {
-  name: "DestinationBlogs",
+  name: "DestinationBlogs2",
   props: {
-    tit: String,
-    parraf: String,
-    autor: String,
+    tit2: String,
+    parraf2: String,
+    autor2: String,
   },
 };
 </script>
@@ -88,8 +88,6 @@ export default {
   margin-left: auto;
   margin-right: auto;
   background-color: #fffcb7;
-  padding-bottom: 15px;
-  padding-left: 10px;
 }
 .contenedor {
   width: 100%;

@@ -3,9 +3,7 @@
     <router-link class="logo" to="/">
       <img class="logo" src="../assets/Triplogo.png"
     /></router-link>
-    <router-link to="/about"
-      ><li class="headerItem"><a> Ayuda </a></li>
-    </router-link>
+    <li class="headerItem"><a> Ayuda </a></li>
     <select id="LanguageSelection" class="form-select">
       <option selected>🇪🇸Español</option>
       <option>🇬🇧English</option>
@@ -37,25 +35,29 @@ export default {};
   padding-left: 10px;
 }
 .headerItem a {
-  color: orange;
+  color: rgb(255, 110, 0);
 }
 .headerItem a:hover {
-  color: orangered;
+  color: rgb(255, 50, 0);
 }
 #LanguageSelection {
   height: 25px;
-  color: orange;
-  border-color: orange;
+  color: rgb(255, 110, 0);
+  border-color: rgb(255, 110, 0);
 }
 
 #LanguageSelection:hover {
-  color: orangered;
+  color: rgb(255, 70, 0);
 }
 
 #SignInButton {
-  background-color: orange;
+  background-color: rgb(255, 110, 0);
   color: white;
-  border-color: white;
+  border-radius: 5px;
+  border-width: 0px;
   height: 25px;
+}
+#SignInButton:hover {
+  background-color: rgb(255, 50, 0);
 }
 </style>

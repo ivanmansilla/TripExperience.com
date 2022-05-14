@@ -1,5 +1,16 @@
 <template>
   <div class="slidecontainer">
+    <input
+      type="text"
+      class="form-control"
+      id="inputDestination"
+      placeholder="Búsqueda general"
+    />
+
+    <select name="paises" class="paises">
+      <option value="Costa Rica">Costa Rica</option>
+      <option value="Madagascar">Madagascar</option>
+    </select>
     <div class="price-row">
       <body>
         <p>Precio(€)</p>
@@ -30,17 +41,26 @@ export default {
 };
 </script>
 <style>
+#inputDestination {
+  margin: 5%;
+  border-width: 0px;
+  border-radius: 1px;
+  height: 20px;
+}
+.paises {
+  margin: 5%;
+  border-width: 0px;
+  border-radius: 1px;
+}
 .slidecontainer {
-  height: 300px;
+  height: 450px;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: stretch;
   align-content: stretch;
-  border: 1px solid lightgray;
-  box-shadow: 2px 2px 8px 4px #d3d3d3d1;
   border-radius: 15px;
-  width: 150px;
+  width: 180px;
   margin-left: auto;
   margin-right: auto;
   background-color: #fffcb7;
@@ -63,7 +83,7 @@ export default {
   width: 25px;
   height: 25px;
   border-radius: 50%;
-  background: rgb(255, 89, 0);
+  background: rgb(255, 50, 0);
   cursor: pointer;
 }
 
@@ -71,7 +91,7 @@ export default {
   width: 25px;
   height: 25px;
   border-radius: 50%;
-  background: rgb(255, 89, 0);
+  background: rgb(255, 50, 0);
   cursor: pointer;
 }
 .checkboxes label {

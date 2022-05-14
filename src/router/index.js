@@ -3,11 +3,18 @@ import { createRouter, createWebHashHistory } from "vue-router";
 import AboutView from "../views/AboutView.vue";
 import LandingView from "../views/LandingView";
 import destinationPage from "../views/destinationPage.vue";
-import ActivityList from "../views/ActivityList.vue";
+import ActivityList_arquitectura from "../views/ActivityList_arquitectura.vue";
+import ActivityList_naturaleza from "../views/ActivityList_naturaleza.vue";
+import ActivityList_arte from "../views/ActivityList_arte.vue";
+import ActivityList_familia from "../views/ActivityList_familia.vue";
+import ActivityList_gastronomia from "../views/ActivityList_gastronomia.vue";
+import ActivityList_ocio from "../views/ActivityList_ocio.vue";
 import BlogView from "../views/BlogView.vue";
 import BlogView2 from "../views/BlogView2.vue";
 import BlogView3 from "../views/BlogView3.vue";
 import destinationBlogs from "../views/destinationBlogs.vue";
+import destinationBlogs2 from "../views/destinationBlogs2.vue";
+import BookActivity from "../views/BookActivity.vue";
 
 const routes = [
   {
@@ -18,32 +25,32 @@ const routes = [
   {
     path: "/arquitectura",
     name: "arquitectura",
-    component: ActivityList,
+    component: ActivityList_arquitectura,
   },
   {
     path: "/naturaleza",
     name: "naturaleza",
-    component: ActivityList,
+    component: ActivityList_naturaleza,
   },
   {
     path: "/arte_cultura",
     name: "arte_cultura",
-    component: ActivityList,
+    component: ActivityList_arte,
   },
   {
     path: "/gastronomia",
     name: "gastronomia",
-    component: ActivityList,
+    component: ActivityList_gastronomia,
   },
   {
     path: "/ocio_nocturno",
     name: "ocio_nocturno",
-    component: ActivityList,
+    component: ActivityList_ocio,
   },
   {
     path: "/familia",
     name: "familia",
-    component: ActivityList,
+    component: ActivityList_familia,
   },
   {
     path: "/user_blogs",
@@ -76,9 +83,14 @@ const routes = [
     component: destinationBlogs,
   },
   {
-    path: "/activitat",
-    name: "activitat",
-    component: ActivityList,
+    path: "/destiBlogs2",
+    name: "destiBlogs2",
+    component: destinationBlogs2,
+  },
+  {
+    path: "/book_activity",
+    name: "book_activity",
+    component: BookActivity,
   },
   {
     path: "/about",

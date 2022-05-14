@@ -4,11 +4,47 @@
   </div>
   <div class="components">
     <div class="list">
-      <DestinationBlogs /><br />
-      <DestinationBlogs /><br />
-      <DestinationBlogs /><br />
-      <DestinationBlogs /><br />
-      <DestinationBlogs /><br />
+      <DestinationBlogs
+        tit="&nbsp;&nbsp;PARACAIDAS, &nbsp;UNA EXPERIENCIA INOLVIDABLE"
+        parraf="Os cuento el dia que me tire con paracaidas en Madagascar, una
+          experiencia que jamás voy a olvidar y... ¡cuidado! ¡Os advierto
+          que cuando
+          lo leais os entraran ganas de vivirla!!"
+        autor="Escrito por Ferran Ferrero"
+      /><br />
+      <DestinationBlogs
+        tit="&nbsp;&nbsp;PARACAIDAS, &nbsp;UNA EXPERIENCIA INOLVIDABLE"
+        parraf="Os cuento el dia que me tire con paracaidas en Madagascar, una
+          experiencia que jamás voy a olvidar y... ¡cuidado! ¡Os advierto
+          que cuando
+          lo leais os entraran ganas de vivirla!!"
+        autor="Escrito por Ferran Ferrero"
+      /><br />
+      <DestinationBlogs
+        photo="../assets/para4.jpg"
+        tit="&nbsp;&nbsp;PARACAIDAS, &nbsp;UNA EXPERIENCIA INOLVIDABLE"
+        parraf="Os cuento el dia que me tire con paracaidas en Madagascar, una
+          experienciaque jamás voy a olvidar y... ¡cuidado! ¡Os advierto
+          que cuando
+          lo leais os entraran ganas de vivirla!!"
+        autor="Escrito por Ferran Ferrero"
+      /><br />
+      <DestinationBlogs
+        tit="&nbsp;&nbsp;PARACAIDAS, &nbsp;UNA EXPERIENCIA INOLVIDABLE"
+        parraf="Os cuento el dia que me tire con paracaidas en Madagascar, una
+          experienciaque jamás voy a olvidar y... ¡cuidado! ¡Os advierto
+          que cuando
+          lo leais os entraran ganas de vivirla!!"
+        autor="Escrito por Ferran Ferrero"
+      /><br />
+      <DestinationBlogs
+        tit="&nbsp;&nbsp;PARACAIDAS, &nbsp;UNA EXPERIENCIA INOLVIDABLE"
+        parraf="Os cuento el dia que me tire con paracaidas en Madagascar, una
+          experiencia que jamás voy a olvidar y... ¡cuidado! ¡Os advierto
+          que cuando
+          lo leais os entraran ganas de vivirla!!"
+        autor="Escrito por Ferran Ferrero"
+      /><br />
     </div>
   </div>
 </template>
@@ -26,7 +62,7 @@ export default {
 
 <style>
 .title1 {
-  color: rgb(255, 89, 0);
+  color: rgb(255, 110, 0);
   font-size: 9px;
 }
 .components {
