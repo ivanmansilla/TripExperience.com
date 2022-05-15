@@ -97,6 +97,7 @@ export default {
   border-width: 0px;
   outline: 0;
   border-radius: 12px;
+  cursor: pointer;
 }
 
 #destinationSearchBtn:hover {
