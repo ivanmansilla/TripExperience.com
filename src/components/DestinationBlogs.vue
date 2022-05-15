@@ -4,11 +4,11 @@
       <img class="activitypicture" src="../assets/para4.jpg" />
     </div>
     <div class="text-column">
-      <h3 class="title">{{ tit }}</h3>
-      <body>
-        <h3 class="paragraph">{{ parraf }}</h3>
+      <h5 class="title">{{ tit }}</h5>
+      <body style="margin-left: 15px">
+        <p class="paragraph">{{ parraf }}</p>
         <br />
-        <h3 class="paragraph">{{ autor }}</h3>
+        <h5 class="paragraph">{{ autor }}</h5>
       </body>
       <br />
     </div>
@@ -101,7 +101,13 @@ export default {
   align-items: center;
   justify-content: center;
 }
+p {
+  font-size: 12px;
+}
 
+body {
+  background-color: #fffcb7;
+}
 .btn_reaccion {
   display: inline-flex;
   -webkit-flex-wrap: wrap;

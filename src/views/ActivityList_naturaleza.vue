@@ -1,6 +1,8 @@
 <template>
   <div class="title1">
-    <NavBar />
+    <nav-bar-lluis
+      style="margin-left: 10%; margin-right: 10%; border-radius: 15px"
+    ></nav-bar-lluis>
     <h1>Actividades en la naturaleza</h1>
   </div>
   <label
@@ -59,14 +61,14 @@
 <script>
 import ActivityOverview from "@/components/ActivityOverview.vue";
 import ActivityFilter from "@/components/ActivityFilter.vue";
-import NavBar from "@/components/NavBar.vue";
+import navBarLluis from "@/components/navBarLluis";
 
 export default {
   name: "ActivityList",
   components: {
     ActivityOverview,
     ActivityFilter,
-    NavBar,
+    navBarLluis,
   },
 };
 </script>

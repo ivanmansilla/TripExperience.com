@@ -5,6 +5,8 @@
 <script>
 import PageHeader from "@/components/PageHeader.vue";
 import Footer from "@/components/Footer.vue";
+import "bootstrap/dist/css/bootstrap.css";
+import "bootstrap-vue/dist/bootstrap-vue.css";
 export default {
   name: "MainApp",
   components: {

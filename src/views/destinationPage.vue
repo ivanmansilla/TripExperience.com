@@ -1,12 +1,14 @@
 <template>
-  <NavBar />
+  <nav-bar-lluis
+    style="margin-left: 10%; margin-right: 10%; border-radius: 15px"
+  ></nav-bar-lluis>
   <br />
   <div class="container-card" style="margin-top: 60px; margin-bottom: 60px">
     <div style="width: 100%; text-align: left; margin-left: 2%">
       <b style="position: relative">ACTIVIDADES MAS POPULARES</b>
     </div>
     <div class="container-card2">
-      <div class="col-3 card2">
+      <div class="card2">
         <img
           class="imgCard2 rounded"
           id="imagen7"
@@ -18,7 +20,7 @@
           <i class="bi bi-heart-fill"></i>
         </div>
       </div>
-      <div class="col-3 card2">
+      <div class="card2">
         <img
           class="imgCard2 rounded"
           id="imagen8"
@@ -30,7 +32,7 @@
           <i class="bi bi-heart-fill"></i>
         </div>
       </div>
-      <div class="col-3 card2">
+      <div class="card2">
         <img
           class="imgCard2 rounded"
           id="imagen9"
@@ -42,7 +44,7 @@
           <i class="bi bi-heart-fill"></i>
         </div>
       </div>
-      <div class="col-3 card2">
+      <div class="card2">
         <img
           class="imgCard2 rounded"
           id="imagen10"
@@ -112,13 +114,13 @@
   <UserBlogs />
 </template>
 <script>
-import NavBar from "@/components/NavBar.vue";
+import navBarLluis from "@/components/navBarLluis";
 import UserBlogs from "@/components/UserVlogs.vue";
 export default {
   name: "destinationPage",
   components: {
-    NavBar,
     UserBlogs,
+    navBarLluis,
   },
 };
 </script>
@@ -135,6 +137,8 @@ export default {
   background-color: #fffcb7;
 }
 .container-card2 {
+  display: flex;
+  overflow-x: scroll;
   height: auto;
   border: 1px solid lightgray;
   box-shadow: 2px 2px 8px 4px #d3d3d3d1;

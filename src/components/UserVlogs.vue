@@ -1,7 +1,7 @@
 <template>
   <div class="container-card" style="display: inline-block; margin-top: 60px">
     <div class="row">
-      <div class="col-3" style="text-align: left; margin-left: 15px">
+      <div class="col-sm-3" style="text-align: left">
         <b>BLOG DE USUARIOS</b>
         <p>
           Aqui encontraras las mejores experiencias narradas por los propios
@@ -52,7 +52,7 @@
           </button>
         </router-link>
       </div>
-      <div class="col-8">
+      <div class="col-9">
         <div class="container-card2">
           <div class="card3" style="text-align: left">
             <div>
@@ -108,6 +108,12 @@ export default {};
 </script>
 
 <style scoped>
+#inputDestination {
+  margin-left: 0px;
+}
+button {
+  margin-bottom: 15px;
+}
 .container-card {
   height: auto;
   border-radius: 15px;
@@ -128,6 +134,7 @@ export default {};
   width: auto;
   margin: 3%;
   background-color: white;
+  overflow-x: scroll;
 }
 .card3 {
   margin-left: 23px;
@@ -173,5 +180,19 @@ img:hover {
   box-shadow: 2px 2px 8px 8px rgb(255, 50, 0);
   color: rgb(255, 50, 0);
   border-width: 0px;
+}
+p {
+  padding-right: 7px;
+}
+.row {
+  height: 100%;
+  width: 100%;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+@media (max-width: 500px) {
+  .col-9 {
+    width: 100%;
+  }
 }
 </style>

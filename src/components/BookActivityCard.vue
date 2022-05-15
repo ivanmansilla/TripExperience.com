@@ -3,45 +3,47 @@
     <h2 class="title">
       Aventura de 3 días en la selva amazónica en Posada Amazonas
     </h2>
-    <div class="first">
-      <div class="columnpicture">
-        <img
-          class="img_columna"
-          src="@/assets/puente_amz.jpg"
-          alt=""
-          id="l_img1"
-          @click="enlarge('l_img1')"
-        />
-        <br />
-        <img
-          class="img_columna"
-          src="@/assets/jardin_amz.jpg"
-          alt=""
-          id="l_img2"
-          @click="enlarge('l_img2')"
-        />
-        <br />
-        <img
-          class="img_columna"
-          src="@/assets/tucan_amz.jpg"
-          alt=""
-          id="l_img3"
-          @click="enlarge('l_img3')"
-        />
+    <div class="row first">
+      <div class="col-lg-8" style="display: flex">
+        <div class="columnpicture">
+          <img
+            class="img_columna"
+            src="@/assets/puente_amz.jpg"
+            alt=""
+            id="l_img1"
+            @click="enlarge('l_img1')"
+          />
+          <br />
+          <img
+            class="img_columna"
+            src="@/assets/jardin_amz.jpg"
+            alt=""
+            id="l_img2"
+            @click="enlarge('l_img2')"
+          />
+          <br />
+          <img
+            class="img_columna"
+            src="@/assets/tucan_amz.jpg"
+            alt=""
+            id="l_img3"
+            @click="enlarge('l_img3')"
+          />
+        </div>
+        <div class="popup-img">
+          <span @click="close">&times;</span>
+          <img src="../assets/puente_amz.jpg" alt="" />
+        </div>
+        <div class="main_photo">
+          <img
+            class="img_centro"
+            src="../assets/cabaña_inicio.jpg"
+            id="big_img"
+            @click="enlarge('big_img')"
+          />
+        </div>
       </div>
-      <div class="popup-img">
-        <span @click="close">&times;</span>
-        <img src="../assets/puente_amz.jpg" alt="" />
-      </div>
-      <div class="main_photo">
-        <img
-          class="img_centro"
-          src="../assets/cabaña_inicio.jpg"
-          id="big_img"
-          @click="enlarge('big_img')"
-        />
-      </div>
-      <div class="rightcolumn">
+      <div class="col-lg-3 rightcolumn">
         <body>
           <p>
             Desde <span class="price"> 618,39 €</span> <br />
@@ -149,12 +151,12 @@ export default {
   width: 200px;
 }
 .container-card {
-  height: 740px;
+  height: auto;
   justify-content: space-evenly;
   align-items: stretch;
   align-content: stretch;
   border-radius: 15px;
-  width: 1050px;
+  width: auto;
   margin-top: 10px;
   margin-left: auto;
   margin-right: auto;
@@ -243,6 +245,12 @@ export default {
   -webkit-transition: all 200ms ease-in;
   -o-transition: all 200ms ease-in;
   transition: all 200ms ease-in;
+}
+p {
+  background-color: #fffcb7;
+}
+body {
+  background-color: #fffcb7;
 }
 .btn_reaccion .reaccion + .reaccion {
   margin-left: 5px;
@@ -444,8 +452,7 @@ export default {
   padding-left: 30px;
   padding-right: 20px;
   padding-top: 20px;
-  width: 550px;
-  height: 425px;
+  width: 100%;
   border-radius: 35px;
   object-fit: cover;
   transition: 0.2s linear;
