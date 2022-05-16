@@ -3,6 +3,8 @@
   <Footer />
 </template>
 <script>
+import "bootstrap/dist/css/bootstrap.css";
+import "bootstrap-vue/dist/bootstrap-vue.css";
 import PageHeader from "@/components/PageHeader.vue";
 import Footer from "@/components/Footer.vue";
 export default {
@@ -23,6 +25,13 @@ export default {
   color: #2c3e50;
 }
 
+h1 {
+  font-size: 23px;
+}
+
+h2 {
+  font-size: 19px;
+}
 nav {
   padding: 30px;
 }

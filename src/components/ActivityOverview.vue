@@ -15,14 +15,15 @@
     <div class="rightcolumn">
       <body>
         <p>
-          desde <br /><span class="price">{{ precio }}</span> <br />
-          por persona
+          <b>desde </b>
+          <br /><span class="price">{{ precio }}</span> <br />
+          <b>por persona </b>
         </p>
       </body>
       <br />
       <router-link to="/book_activity">
-        <button id="destinationSearchBtn" type="submit" class="btn btn-primary">
-          Información y reserva
+        <button id="destinationSearchBtn" type="submit" class="btn">
+          Informacion/Reserva
         </button>
       </router-link>
     </div>
@@ -108,5 +109,12 @@ export default {
 
 #destinationSearchBtn:hover {
   background-color: rgb(255, 50, 0);
+}
+p {
+  background-color: #fffcb7;
+}
+body {
+  font-size: 12px;
+  font-weight: auto;
 }
 </style>

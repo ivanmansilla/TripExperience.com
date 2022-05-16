@@ -1,46 +1,48 @@
 <template>
   <div class="container-card">
     <div class="row">
-      <div class="text-column">
-        <h3 class="title">¿Adónde vas?</h3>
-        <body>
-          Escribe aqui:
-        </body>
-        <br />
-        <input
-          type="text"
-          class="form-control"
-          id="inputDestination"
-          placeholder="Destino"
-        />
-        <br />
-        <br />
-        <router-link to="/desti">
-          <button
-            id="destinationSearchBtn"
-            type="submit"
-            class="btn btn-primary"
-          >
-            Buscar
-          </button>
-        </router-link>
-        <br />
-        <br />
-        <body>
-          no sabes a donde ir?
-        </body>
-        <br />
-        <router-link to="/desti">
-          <button
-            id="destinationSearchBtn"
-            type="submit"
-            class="btn btn-primary"
-          >
-            Recomiéndame
-          </button>
-        </router-link>
+      <div class="col-sm-6">
+        <div class="row">
+          <h3 class="title">¿Adónde vas?</h3>
+          <body>
+            Escribe aqui:
+          </body>
+          <br />
+          <input
+            type="text"
+            class="form-control"
+            id="inputDestination"
+            placeholder="Destino"
+          />
+          <br />
+          <br />
+          <router-link to="/desti">
+            <button
+              id="destinationSearchBtn"
+              type="submit"
+              class="btn btn-primary"
+            >
+              Buscar
+            </button>
+          </router-link>
+          <br />
+          <br />
+          <body>
+            no sabes a donde ir?
+          </body>
+          <br />
+          <router-link to="/desti">
+            <button
+              id="destinationSearchBtn"
+              type="submit"
+              class="btn btn-primary"
+            >
+              Recomiéndame
+            </button>
+          </router-link>
+        </div>
       </div>
-      <div class="column">
+      <div class="col-sm-6">
         <img class="sunset" src="../assets/sunset.jpg" />
       </div>
     </div>
@@ -58,6 +60,9 @@ export default {
   display: flex;
   border-radius: 15px;
   width: 90%;
+  text-align: left;
+  padding: 20px;
+  padding-left: 30px;
   margin-left: auto;
   margin-right: auto;
   background-color: #fffcb7;
@@ -75,8 +80,6 @@ export default {
 .sunset {
   padding-top: 30px;
   padding-bottom: 30px;
-  padding-left: 270px;
-  width: 700px;
   height: 450px;
 }
 
@@ -84,10 +87,16 @@ export default {
   width: 200px;
   height: 30px;
   border-width: 0px;
+  margin: 5px;
 }
 
 .form-control {
   border-radius: 10px;
+}
+body {
+  background-color: #fffcb7;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 #destinationSearchBtn {
   height: 36px;
@@ -102,5 +111,10 @@ export default {
 
 #destinationSearchBtn:hover {
   background-color: rgb(255, 50, 0);
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
 }
 </style>

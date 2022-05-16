@@ -1,6 +1,8 @@
 <template>
   <div class="title1">
-    <NavBar />
+    <nav-bar-lluis
+      style="margin-left: 10%; margin-right: 10%; border-radius: 15px"
+    ></nav-bar-lluis>
     <h1>Actividades de arquitectura</h1>
   </div>
   <label
@@ -57,9 +59,7 @@
         titl="Basilisca Nuestra Sra. de los Ángeles"
         parrafo="La Basílica es un lugar de visita obligatoria si se quiere 
         conocer la cultura e historia de Costa Rica. La iglesia tiene una construcción 
-        muy hermosa. En ella se encuentra la Virgen de Los Àngeles, patrona de Costa Rica. 
-        Habitualmente. hay personas que suben la iglesia de rodillas. En la parte de atrás de la iglesia, 
-        se encuentra el agua bendita y la piedra del hallazgo"
+        muy hermosa.  "
         precio="20€"
         filename="trek1.jpg"
       /><br />
@@ -70,14 +70,14 @@
 <script>
 import ActivityOverview from "@/components/ActivityOverview.vue";
 import ActivityFilter from "@/components/ActivityFilter.vue";
-import NavBar from "@/components/NavBar.vue";
+import NavBarLluis from "@/components/navBarLluis";
 
 export default {
   name: "ActivityList",
   components: {
+    NavBarLluis,
     ActivityOverview,
     ActivityFilter,
-    NavBar,
   },
 };
 </script>

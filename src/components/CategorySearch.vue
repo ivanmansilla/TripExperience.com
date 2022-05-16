@@ -22,38 +22,79 @@
         <div class="container-card2">
           <router-link to="/arquitectura">
             <div class="col-card">
-              <img class="rounded" id="imagen0" src="../assets/castle.png" />
-              <b class="activityB">Arquitectura</b>
+              <div class="row">
+                <img
+                  class="rounded"
+                  id="imagen0"
+                  src="../assets/castle.png"
+                  style="margin-left: auto; margin-right: auto"
+                />
+                <b class="activityB">Arquitectura</b>
+              </div>
             </div>
           </router-link>
           <router-link to="/naturaleza">
             <div class="col-card">
-              <img class="rounded" id="imagen2" src="../assets/flower.png" />
-              <b class="activityB">Naturaleza</b>
+              <div class="row">
+                <img
+                  class="rounded"
+                  id="imagen2"
+                  src="../assets/flower.png"
+                  style="margin-left: auto; margin-right: auto"
+                />
+                <b class="activityB">Naturaleza</b>
+              </div>
             </div>
           </router-link>
           <router-link to="/arte_cultura">
             <div class="col-card">
-              <img class="rounded" id="imagen5" src="../assets/art_icon2.png" />
-              <b class="activityB">Arte y Cultura</b>
+              <div class="row">
+                <img
+                  class="rounded"
+                  id="imagen5"
+                  src="../assets/art_icon2.png"
+                  style="margin-left: auto; margin-right: auto"
+                />
+                <b class="activityB">Arte y Cultura</b>
+              </div>
             </div>
           </router-link>
           <router-link to="/gastronomia">
             <div class="col-card">
-              <img id="imagen3" src="../assets/paella.png" />
-              <b class="activityB">Gastronomía</b>
+              <div class="row">
+                <img
+                  id="imagen3"
+                  src="../assets/paella.png"
+                  style="margin-left: auto; margin-right: auto"
+                />
+                <b class="activityB">Gastronomía</b>
+              </div>
             </div>
           </router-link>
           <router-link to="/ocio_nocturno">
             <div class="col-card">
-              <img class="rounded" id="imagen4" src="../assets/feast.png" />
-              <b class="activityB">Ocio nocturno</b>
+              <div class="row">
+                <img
+                  class="rounded"
+                  id="imagen4"
+                  src="../assets/feast.png"
+                  style="margin-left: auto; margin-right: auto"
+                />
+                <b class="activityB">Ocio nocturno</b>
+              </div>
             </div>
           </router-link>
           <router-link to="/familia">
             <div class="col-card">
-              <img class="rounded" id="imagen1" src="../assets/family.png" />
-              <b class="activityB">En familia</b>
+              <div class="row">
+                <img
+                  class="rounded"
+                  id="imagen1"
+                  src="../assets/family.png"
+                  style="margin-left: auto; margin-right: auto"
+                />
+                <b class="activityB">En familia</b>
+              </div>
             </div>
           </router-link>
         </div>
