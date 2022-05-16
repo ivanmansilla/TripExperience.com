@@ -16,7 +16,7 @@
           />
           <br />
           <br />
-          <router-link to="/desti">
+          <router-link to="/general">
             <button
               id="destinationSearchBtn"
               type="submit"

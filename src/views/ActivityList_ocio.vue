@@ -1,15 +1,20 @@
 <template>
   <div class="title1">
-    <NavBar />
+    <nav-bar-lluis
+      style="margin-left: 10%; margin-right: 10%; border-radius: 15px"
+    ></nav-bar-lluis>
+    <br />
+    <br />
     <h1>Ocio nocturno</h1>
+    <br />
   </div>
   <label
     ><select id="Order" class="form-order">
-      <option selected>Mejor valoradas</option>
+      <option selected>Ordenar por</option>
       <option>Menor precio</option>
       <option>Mayor precio</option>
       <option>Mas visitadas</option>
-      <span>Ordenar por</span>
+      <option>Mejor valoradas</option>
     </select>
   </label>
   <div class="components">
@@ -61,14 +66,14 @@
 <script>
 import ActivityOverview from "@/components/ActivityOverview.vue";
 import ActivityFilter from "@/components/ActivityFilter.vue";
-import NavBar from "@/components/NavBar.vue";
+import navBarLluis from "@/components/navBarLluis.vue";
 
 export default {
   name: "ActivityList",
   components: {
     ActivityOverview,
     ActivityFilter,
-    NavBar,
+    navBarLluis,
   },
 };
 </script>
@@ -84,9 +89,14 @@ export default {
   justify-content: center;
   align-items: stretch;
   align-content: stretch;
+  margin-top: 2%;
 }
-#Order {
-  margin: 1%;
+.form-order {
+  border-width: 3px;
+  border-radius: 5px;
+}
+.form-order:hover {
+  border-color: rgb(255, 110, 0);
 }
 .list {
   display: flex;

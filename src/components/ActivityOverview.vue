@@ -20,12 +20,20 @@
           <b>por persona </b>
         </p>
       </body>
-      <br />
       <router-link to="/book_activity">
         <button id="destinationSearchBtn" type="submit" class="btn">
-          Informacion/Reserva
+          Informacion/Valorar
         </button>
       </router-link>
+      <p>
+        93
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+        <!-- Use an element to toggle between a like/dislike icon -->
+        <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+      </p>
     </div>
   </div>
 </template>
@@ -42,7 +50,7 @@ export default {
 </script>
 <style scoped>
 .container-card {
-  height: 150px;
+  height: 160px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -52,10 +60,12 @@ export default {
   margin-left: auto;
   margin-right: auto;
   background-color: #fffcb7;
+  padding-top: 5px;
 }
 
 .title {
   color: rgb(255, 110, 0);
+  font-weight: bold;
 }
 
 .container-card:hover .title {
@@ -95,6 +105,8 @@ export default {
 }
 .price {
   color: rgb(255, 50, 0);
+  font-size: 200%;
+  font-weight: bold;
 }
 
 #destinationSearchBtn {

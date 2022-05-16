@@ -7,6 +7,7 @@ import ActivityList_arquitectura from "../views/ActivityList_arquitectura.vue";
 import ActivityList_naturaleza from "../views/ActivityList_naturaleza.vue";
 import ActivityList_arte from "../views/ActivityList_arte.vue";
 import ActivityList_familia from "../views/ActivityList_familia.vue";
+import ActivityList_general from "../views/ActivityList_general.vue";
 import ActivityList_gastronomia from "../views/ActivityList_gastronomia.vue";
 import ActivityList_ocio from "../views/ActivityList_ocio.vue";
 import BlogView from "../views/BlogView.vue";
@@ -51,6 +52,11 @@ const routes = [
     path: "/familia",
     name: "familia",
     component: ActivityList_familia,
+  },
+  {
+    path: "/general",
+    name: "general",
+    component: ActivityList_general,
   },
   {
     path: "/user_blogs",

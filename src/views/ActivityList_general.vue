@@ -5,7 +5,7 @@
     ></nav-bar-lluis>
     <br />
     <br />
-    <h1>Actividades de arquitectura</h1>
+    <h1>Actividades en Costa Rica</h1>
     <br />
   </div>
   <label
@@ -23,6 +23,20 @@
     </div>
     <div class="list">
       <ActivityOverview
+        titl="Royal Butterflies"
+        parrafo="No se lo pueden perder! Sobre todo si vienen con niños. 
+        Dan es un anfitrión increíble y explica todo con sumo detalle. 
+        Es un apasionado de lo que hace. Súper recomendable!"
+        precio="50€"
+      /><br />
+      <ActivityOverview
+        titl="Rafting en el río"
+        parrafo="Si te gusta la adrenalina ven a hacer ráfting.
+        Probaras el descenso por el rio tucaton y no te arrepentiras.
+        Algo tan fascinante que se tiene que hacer una vez en la vida"
+        precio="80€"
+      /><br />
+      <ActivityOverview
         titl="Teatro Nacional Costa Rica"
         parrafo="Tanto Tío Leo como su esposa Cinty y todo el 
         personal son excelentes anfitriones. La infraestructura 
@@ -33,38 +47,21 @@
         filename="../assets/teatroCR.jpg"
       /><br />
       <ActivityOverview
-        titl="Arenal Hanging Bridges Park"
-        parrafo="Una de las experiencias más increíbles que podrás
-         disfrutar. El recorrido por los puentes colgantes en medio de una 
-         flora y fauna increíbles es para recomendar a todos los amantes del 
-         medio ambiente y de la naturaleza "
-        precio="60€"
-        filename="../assets/trek1.jpg"
+        titl="Tour de flora y fauna"
+        parrafo="Descubre las flores y los animales del país,
+        acpmàñado de un guía experto en Biología, el doctor Miguelito
+        Florecito"
+        precio="50€"
       /><br />
       <ActivityOverview
-        titl="El Miro"
-        parrafo="Fue difícil encontrarlo, ya que no existe señalización ni ruta en el mapa, sin embargo,
-         le preguntamos a un lugareño y nos dio las pistas para encontrarlo. Hay que dejar el carro abajo y subir
-          por otro medio. La cuesta es muy pronunciada, se puede entrar en bicicleta o caminando Llegamos al primer
-           mirador y nos gustó mucho, la infraestructura es sorprendente."
-        precio="0€"
-        filename="trek1.jpg"
-      /><br />
-      <ActivityOverview
-        titl="Marina Pez Vela"
-        parrafo="Lugar hermoso para visitar en familia. Restaurantes 
-        variados, tiendas y la belleza del mar y los yates.
-        Imperdible si visita Quépos o Manuel Antonio"
-        precio="30€"
-        filename="trek1.jpg"
-      /><br />
-      <ActivityOverview
-        titl="Basilisca Nuestra Sra. de los Ángeles"
-        parrafo="La Basílica es un lugar de visita obligatoria si se quiere 
-        conocer la cultura e historia de Costa Rica. La iglesia tiene una construcción 
-        muy hermosa.  "
-        precio="20€"
-        filename="trek1.jpg"
+        titl="North Fields Cafe Tour"
+        parrafo="El café aromático, la caña de azúcar dulce y el chocolate que se
+         derrite en la boca son tres de las principales exportaciones agrícolas de 
+         Costa Rica, y sus productos favoritos entre locales y visitantes. Conozca
+          estos tres cultivos de primera mano en este tour de una granja familiar cerca 
+          de La Fortuna. Vea cómo se crea el café del frijol a la taza, y luego pruebe 
+          otros deliciosos cultivos junto con una guía."
+        precio="40€"
       /><br />
     </div>
   </div>
@@ -73,14 +70,14 @@
 <script>
 import ActivityOverview from "@/components/ActivityOverview.vue";
 import ActivityFilter from "@/components/ActivityFilter.vue";
-import NavBarLluis from "@/components/navBarLluis";
+import navBarLluis from "@/components/navBarLluis";
 
 export default {
   name: "ActivityList",
   components: {
-    NavBarLluis,
     ActivityOverview,
     ActivityFilter,
+    navBarLluis,
   },
 };
 </script>
@@ -88,10 +85,8 @@ export default {
 <style>
 .title1 {
   color: rgb(255, 110, 0);
-  font-size: px;
-  font-weight: bold;
+  font-size: 9px;
 }
-
 .components {
   display: flex;
   flex-direction: row;

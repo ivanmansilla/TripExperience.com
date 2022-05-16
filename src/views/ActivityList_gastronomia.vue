@@ -3,15 +3,18 @@
     <nav-bar-lluis
       style="margin-left: 10%; margin-right: 10%; border-radius: 15px"
     ></nav-bar-lluis>
+    <br />
+    <br />
     <h1>Restaurantes y gastronomia</h1>
+    <br />
   </div>
   <label
     ><select id="Order" class="form-order">
-      <option selected>Mejor valoradas</option>
+      <option selected>Ordenar por</option>
       <option>Menor precio</option>
       <option>Mayor precio</option>
       <option>Mas visitadas</option>
-      <span>Ordenar por</span>
+      <option>Mejor valoradas</option>
     </select>
   </label>
   <div class="components">
@@ -92,9 +95,14 @@ export default {
   justify-content: center;
   align-items: stretch;
   align-content: stretch;
+  margin-top: 2%;
 }
-#Order {
-  margin: 1%;
+.form-order {
+  border-width: 3px;
+  border-radius: 5px;
+}
+.form-order:hover {
+  border-color: rgb(255, 110, 0);
 }
 .list {
   display: flex;

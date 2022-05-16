@@ -1,5 +1,8 @@
 <template>
   <div class="slidecontainer">
+    <div class="titlefiltres">
+      <h2>Filtros</h2>
+    </div>
     <input
       type="text"
       class="form-control"
@@ -23,6 +26,7 @@
         class="slider"
         id="myRange"
       />
+      <p>0-300</p>
     </div>
     <div class="checkboxes">
       <body>
@@ -41,19 +45,31 @@ export default {
 };
 </script>
 <style>
+.titlefiltres {
+  color: rgb(255, 110, 0);
+}
 #inputDestination {
   margin: 5%;
   border-width: 0px;
   border-radius: 1px;
   height: 20px;
+  width: 160px;
+}
+#inputDestination:hover {
+  border-width: 2px;
+  border-color: rgb(255, 110, 0);
 }
 .paises {
   margin: 5%;
   border-width: 0px;
   border-radius: 1px;
 }
+.paises:hover {
+  border-width: 2px;
+  border-color: rgb(255, 110, 0);
+}
 .slidecontainer {
-  height: 450px;
+  height: 500px;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -96,7 +112,8 @@ export default {
 }
 .checkboxes label {
   display: inline-block;
-  padding-right: 20px;
+  padding-right: 30px;
+  padding-left: 30px;
   white-space: nowrap;
 }
 .checkboxes input {

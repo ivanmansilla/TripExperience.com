@@ -17,6 +17,7 @@
       style="margin-right: auto; margin-left: auto; width: 100%"
     >
       <ul class="navbar-nav">
+        <router-link id="NavBarItem" to="/general">General</router-link>
         <router-link id="NavBarItem" to="/desti">Recomendaciones</router-link>
         <router-link id="NavBarItem" to="/arquitectura"
           >Arquitectura</router-link
@@ -82,5 +83,8 @@ export default {
   font-size: 20px;
   padding-left: 10px;
   padding-right: 10px;
+}
+#NavBarItem:hover {
+  color: rgb(255, 110, 0);
 }
 </style>
