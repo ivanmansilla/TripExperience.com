@@ -2,7 +2,7 @@
   <div class="container-card">
     <div class="row">
       <div class="text-column">
-        <h2>Acerca de nosotros</h2>
+        <h2>Acercas de nosotros</h2>
         <p>Contactanos</p>
         <p>¿Quieres trabajar con TripExperience?</p>
       </div>
