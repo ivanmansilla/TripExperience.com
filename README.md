@@ -55,9 +55,14 @@ Para el desarrollo y diseño se han tenido en cuenta varias etapas por el orden 
   
   ---> Avaluación.
   
+  
+  
 **Logo:**
 
 <img width="431" alt="image" src="https://user-images.githubusercontent.com/72189801/225894053-19ef80b1-2fdd-4001-8d12-f59354a25ad7.png">
+
+
+
 
 **Pàgina principal:**
 
@@ -66,14 +71,24 @@ Para el desarrollo y diseño se han tenido en cuenta varias etapas por el orden 
 <img width="939" alt="image" src="https://user-images.githubusercontent.com/72189801/225891422-8cd4b988-7bcc-4916-9a0f-8b5c3c2a350f.png">
 <img width="942" alt="image" src="https://user-images.githubusercontent.com/72189801/225891473-a5b30bc5-8506-4c0f-90ff-ac69d333f883.png">
 
+
+
+
 **Ejemplo actividades de ocio nocturno en Madagascar y activiades de arquitectura en Cosa Rica:**
 
 <img width="942" alt="image" src="https://user-images.githubusercontent.com/72189801/225892008-f2633d7e-d36e-45a5-9674-7d9965807496.png">
 <img width="947" alt="image" src="https://user-images.githubusercontent.com/72189801/225892889-b7841f51-cd5e-40f3-887d-d6c4fe28bbe9.png">
 
+
+
+
 **Ejemplo de posbilidad de reserva de aventura en el Amazonas:**
 
 <img width="938" alt="image" src="https://user-images.githubusercontent.com/72189801/225892226-ebc3e123-14e6-455a-aeb8-976c29d85bae.png">
+
+
+
+
 
 **Ejemplo de blog de actividad de un usuario:**
 
