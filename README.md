@@ -57,7 +57,7 @@ Para el desarrollo y diseño se han tenido en cuenta varias etapas por el orden 
   
 **Logo:**
 
-![image](https://user-images.githubusercontent.com/72189801/225889645-22b55acf-a37c-47ea-81ff-8f592178c42e.png)
+<img width="431" alt="image" src="https://user-images.githubusercontent.com/72189801/225894053-19ef80b1-2fdd-4001-8d12-f59354a25ad7.png">
 
 **Pàgina principal:**
 
